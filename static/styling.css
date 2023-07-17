@@ -1,0 +1,63 @@
+.articlePreview, .articleHeading, .buttons, .searchBar {
+  margin-top: 20px;
+  margin-left: 20px !important;
+  margin-right: 20px;
+}
+
+.searchBar{
+  width:100%!important;
+  align-items: center!important;
+}
+
+.summary{
+  margin-left: 10px !important ;
+}
+
+
+.buttons {
+  margin-top: 20px!important;
+  margin-left: 20px!important;
+  background-color: #18747C !important;
+  margin-bottom: 10px;
+}
+
+
+.articleHeading {
+  color: black;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 40px;
+  background-color: #EDEEF4;
+  padding: 5px;
+}
+
+.searchButton{
+  background-color: #18747C !important;
+}
+
+.articlePreview {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #EDEEF4;
+  padding: 5px;
+}
+
+.custom {
+  align-items: flex-start  ;
+  width: 150px !important;
+  height: 50px !important;
+  margin-left: 20px!important;
+
+}/*# sourceMappingURL=mainStyles.css.map */
+
+input[type=text] {
+  padding:4px;
+  border:2px solid #ccc; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=text]:focus {
+  border-color:#333;
+}

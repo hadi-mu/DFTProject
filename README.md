@@ -1,1 +1,1 @@
-# DFTProject
+# DFTPrototype

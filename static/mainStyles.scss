@@ -1,0 +1,50 @@
+%mainAlignment{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px ;
+}
+
+.searchBar{
+    @extend %mainAlignment;
+    margin-left: 35px;
+}
+
+.buttons{
+    @extend %mainAlignment;
+    color:blue;
+}
+
+.buttonsInd{
+    background-color:#18747C;
+    margin-bottom: 20px;
+}
+
+.summary{
+    @extend %mainAlignment;
+
+}
+
+.articleHeading{
+    color: beige;
+    text-align: left;
+    @extend %mainAlignment;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: teal;
+    padding: 5px;
+}
+
+.articlePreview{
+    color: beige;
+    @extend %mainAlignment;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #34B5C0;
+    padding: 5px;
+
+}
+
+.custom {
+    width: 100px !important;
+}
+
