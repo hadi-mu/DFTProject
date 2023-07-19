@@ -2,56 +2,88 @@ from flask import Flask,render_template,url_for,request
 import SearchBackend, consts
 import json
 
+
 SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
-SOURCES=['gov.uk','BBC','SkyNews'] #possible sources, authors, types etc...
+
+#Constants containing possible choices for filters
+SOURCES=['gov.uk','BBC','SkyNews'] 
 AUTHORS=['Reporters','Government']
 TYPES=['Reports','Articles','Audits']
+
+
+#filters selected by user
 dateRange=""
 sourcesToUse=[]
 authorsToUse=[]
 typesToUse=[]
+
+#results from search to be rendered on page
 sumText="Enter a query to see results..."
 prevHeadings=["First Result","Second Result","Third Result"]
 prevText=["Article summary goes here"]*3
 links=[]
+
+
 app=Flask(__name__)
 app.static_folder='./static'
 
 
 @app.route('/',methods=['POST','GET'])
 def index():
+          
           if request.method == 'POST': #query posted to this method
-                  query=request.form['query']
-                  #print("QUERY IS: " + request.form['query']) 
+                  
+                  query=request.form['query']#extracts search query from form
+                                    
+                  #update global variables that contain content to be displayed on frontend - performing search and getting results
+                  
                   global sumText,prevHeadings,prevText,links
                   sumText, jsonResults, prevHeadings, prevText,links = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
-                  jsonDeser=json.loads(jsonResults)
-                  #print("SUMMARY IS: "+ sumText)
-                  #print(jsonDeser)
+                  
 
                   
           return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
 
+
+
+#Method to change date range
 @app.route('/date',methods=['POST','GET'])
 def changeDate():
-         if request.method == 'POST': #query posted to this method
+         
+         if request.method == 'POST': 
+                  
+                  #update dateRange with dates specified in form
                   dateRange=request.form['start']+':'+request.form['end']
                   #print("Dates selected are " + dateRange)
+
          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
 
+
+
+#Updates all filters with selections
 @app.route('/filter',methods=['POST','GET'])
 def changeFilters():
+        
         if request.method == 'POST':
+
                 req=request.form
                 typesToUse=req.getlist('types[]')
                 authorsToUse=req.getlist('authors[]')
                 sourcesToUse=req.getlist('sources[]')
+
                 #print("Types" + str(typesToUse))
+
         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
         
+
+
+
+
+
+
 def searchQuery(query, searchType,startDate=None,endDate=None,sources=None,authors=None,types=None):
         
         #TO IMPLEMENT

@@ -200,13 +200,33 @@ def parseUnstructuredResults(searchResponse):
     """
 
 def parseLink(link):
-    #print("OLD LINK: ",link)
+    """
+    Converts google cloud storage link to a searchable url
+
+    Arguments:
+    -link-> gs link to be converted
+
+    Returns:
+    -newLink-> converted link
+    """
+
     newLink=link.replace(" ","%20")
     newLink=newLink.replace("gs://","https://storage.cloud.google.com/")
-    #print("NEW LINK: ",newLink)
     return newLink
 
+
+
 def titleFromLink(link):
+    """
+    Extracts document title from url
+
+    Arguments:
+    -link-> Document url
+
+    Returns:
+    -title-> Extracted title
+    """
+
     link=link.replace('gs://dftprototype/','')
     link=link.replace('.pdf','')
     title=link
@@ -238,7 +258,12 @@ def startSearch(query, searchType, startDate=None, endDate=None, sources=None, a
 
     Returns: 
     -summary -> str
-    -response_json -> str/JSON like
+    -parsedResults -> str/JSON like
+    -titleArr -> arr containing document titles from results
+    -previewArr -> arr containing document content from results
+    -link -> arr containing document links 
+
+
     """
     # create search client
     client = discoveryengine.SearchServiceClient()
@@ -261,13 +286,15 @@ def startSearch(query, searchType, startDate=None, endDate=None, sources=None, a
 
 
 
-    parsedDict=json.loads(parsedResults)
-    resultsArr=parsedDict["results"]
+    parsedDict=json.loads(parsedResults) #convert json to dictionary
+    resultsArr=parsedDict["results"] #get list of documents in results
+
+    #arrays containing information about all documents returned in results
     titleArr=[]
     previewArr=[]
     linkArr=[]
-    for result in resultsArr:
-        print("PARSING...")
+
+    for result in resultsArr: #iterates through all documents in results, extracts document content, link and title
         
         documentDict=result["document"]
         docDataDict=documentDict["derivedStructData"]
