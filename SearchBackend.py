@@ -91,6 +91,10 @@ def performSingleSearch(searchServiceClient, searchEngineID, searchQuery, filter
         serving_config=serving_config, query=searchQuery, filter=filter, page_size=pageSize
     )
 
+    #Setting summary to be generated from all documents
+    request.content_search_spec.extractive_content_spec.max_extractive_answer_count = 1 #number of single document summaries (extractive content) per document
+    request.content_search_spec.summary_spec.summary_result_count = 1 #number of total query summaries to generate.
+
     # Search performed and raw search results returned
     response_pager = searchServiceClient.search(request)
 
@@ -182,8 +186,7 @@ def parseUnstructuredResults(searchResponse):
         searchResponse, including_default_value_fields=False, indent=2
     )
 
-    summary = searchResponse.results[0].document.derived_struct_data["extractive_answers"][0]["content"]
-
+    summary = searchResponse.summary.summary_text
     return summary, response_json
     """
     TODO:
