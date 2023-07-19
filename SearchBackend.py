@@ -260,10 +260,18 @@ def checkDateInRange(date,start,end):
     start=start.split('-')
     end=end.split('-')
 
-    if (start[0]<=date[2]<=end[0]) and (start[1]<=date[1]<=end[1]) and (start[2]<=date[0]<=end[2]):
+    #print(start)
+    #print(end)
+    #print(date)
+
+    try:
+
+        if (start[0]<=date[2]<=end[0]) and (start[1]<=date[1]<=end[1]) and (start[2]<=date[0]<=end[2]):
+            return True
+        else:
+            return False
+    except: 
         return True
-    else:
-        return False
 
 
 
@@ -327,51 +335,56 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     titleArr=[]
     previewArr=[]
     linkArr=[]
+    passCount=0
 
     for result in resultsArr: #iterates through all documents in results, extracts document content, link and title
-        append=True
-        documentDict=result["document"]
-        docDataDict=documentDict["derivedStructData"]
-        docDataArr=docDataDict["extractive_answers"]
-        docData=docDataArr[0]
-
-        docContent=docData["content"]
-        docLink=docDataDict["link"]
-        #print(docDataDict["link"])
-
-        title=titleFromLink(docLink)
-        docLink=parseLink(docLink)
-        docTypes,source,date,author=getTags(title)
-         
-     
-        if types!=[]:
-            if not(docTypes in types):
-                append=False
-
-
-        if sources!=[]:
-            if not(source in sources):
-                append=False
         
-        if authors!=[]:
-            if not(author in authors):
-                append=False
+        if passCount<3:
+            append=True
+            
+            documentDict=result["document"]
+            docDataDict=documentDict["derivedStructData"]
+            docDataArr=docDataDict["extractive_answers"]
+            docData=docDataArr[0]
+
+            docContent=docData["content"]
+            docLink=docDataDict["link"]
+            #print(docDataDict["link"])
+
+            title=titleFromLink(docLink)
+            docLink=parseLink(docLink)
+            docTypes,source,date,author=getTags(title)
+            
         
-        if startDate or endDate:
-            if not(checkDateInRange(date,startDate,endDate)):
-                append=False
-
-        if append:
-            titleArr.append(title)
-            previewArr.append(docContent)
-            linkArr.append(docLink)
-            print("DOC ACCEPTED")
+            if types!=[]:
+                if not(docTypes in types):
+                    append=False
 
 
+            if sources!=[]:
+                if not(source in sources):
+                    append=False
+            
+            if authors!=[]:
+                if not(author in authors):
+                    append=False
+            
+            if startDate or endDate:
+                if not(checkDateInRange(date,startDate,endDate)):
+                    append=False
+
+            if append:
+                titleArr.append(title)
+                previewArr.append(docContent)
+                linkArr.append(docLink)
+                print("DOC ACCEPTED")
+                passCount+=1
 
 
-        else:
-            print('DOC REJECTED')
+
+
+            else:
+                print('DOC REJECTED')
 
             
 

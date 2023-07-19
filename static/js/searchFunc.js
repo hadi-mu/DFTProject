@@ -48,6 +48,11 @@ document.addEventListener('DOMContentLoaded', function() {
             data:{'query':query}
         })
 
+        $.ajax({
+            url:'/',
+            type:'GET'
+                })
+
     };
 });
 
