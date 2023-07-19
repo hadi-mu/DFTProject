@@ -11,11 +11,22 @@
 # from os.path import basename
 # from typing import List, Optional, Tuple
 
-from google.cloud import discoveryengine,storage # , discoveryengine_v1beta
+from google.cloud import discoveryengine,storage,aiplatform # , discoveryengine_v1beta
 import datetime  # required for date filters
 import consts
 import json
 from blobtest import blob_metadata
+import vertexai
+from vertexai.language_models import TextGenerationModel
+
+vertexai.init(project="gen-ai-sandbox", location="us-central1")
+parameters = {
+    "temperature": 0,
+    "max_output_tokens": 768,
+    "top_p": 0.8,
+    "top_k": 40
+}
+model = TextGenerationModel.from_pretrained("text-bison@001")
 
 
 def authorFilter(startDate=None, endDate=None, sources=None, authors=None, types=None):
@@ -306,7 +317,7 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
 
     """
 
-    print("SELECTED FILTERS: ",startDate,endDate,sources,authors,types)
+    #print("SELECTED FILTERS: ",startDate,endDate,sources,authors,types)
     # create search client
     client = discoveryengine.SearchServiceClient()
 
@@ -324,7 +335,9 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
         response = performSingleSearch(
             client, consts.UNSTRUCT_DATASTORE, query, filter)
         summary, parsedResults = parseUnstructuredResults(response)
+    
 
+    summary=model.predict('Please reword the following text: '+summary).text
 
 
 
@@ -375,16 +388,20 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
 
             if append:
                 titleArr.append(title)
+                #print("BEFORE: ",docContent)
+                docContent=model.predict("Please reword the following text into one paragraph: "+ docContent).text
+                #print("AFTER: ",docContent)
                 previewArr.append(docContent)
                 linkArr.append(docLink)
-                print("DOC ACCEPTED")
+                #print("DOC ACCEPTED")
                 passCount+=1
 
 
 
 
-            else:
-                print('DOC REJECTED')
+
+            #else:
+                #print('DOC REJECTED')
 
             
 
@@ -399,5 +416,5 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
 
 
     # return all parsed and filtered results in desired format
-    print("DONE PROCESSING")
+    #print("DONE PROCESSING")
     return summary, parsedResults, titleArr, previewArr, linkArr

@@ -58,10 +58,11 @@ def changeDate():
                   startDate=request.form['start']
                   endDate=request.form['end']
                   dateRange=request.form['start']+':'+request.form['end']
-                  print("Dates selected are " + dateRange)
+                  #print("Dates selected are " + dateRange)
 
          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
+
 
 
 
