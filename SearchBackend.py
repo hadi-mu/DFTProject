@@ -230,9 +230,8 @@ def titleFromLink(link):
     -title-> Extracted title
     """
 
-    link=link.replace('gs://dftprototype/','')
-    link=link.replace('.pdf','')
-    title=link
+    linkSplit=link.split('/')
+    title=linkSplit[-1]
     return title
 
     

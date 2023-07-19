@@ -99,14 +99,14 @@ def searchQuery(query, searchType,startDate=None,endDate=None,sources=None,autho
         #summary, jsonResults = SearchBackend.startSearch(query, searchType, startDate, endDate, sources, authors, types)
         #return summary, jsonResults
 
-        return summary, articleHeadings, articleSummaries, articleLinks
+        #return summary, articleHeadings, articleSummaries, articleLinks
 
-'''''''''
+ '''''''''
 @app.route("/search_genappbuilder", methods=["POST"])
 def search_genappbuilder(search_query) -> str:
     """
     Handle Search Gen App Builder Request
-    """
+    """fal
 
     # Check if POST Request includes search query
     if not search_query:
@@ -130,6 +130,11 @@ def search_genappbuilder(search_query) -> str:
         raw_response=raw_response,
     )
 '''''''''
+
+
+
+
+
 #Test path for backend
 @app.route('/test_search')
 def testSearch():
