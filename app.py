@@ -1,5 +1,7 @@
 from flask import Flask,render_template,url_for,request
+import SearchBackend, consts
 
+SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
 SOURCES=['gov.uk','BBC','SkyNews'] #possible sources, authors, types etc...
 AUTHORS=['Reporters','Government']
 TYPES=['Reports','Articles','Audits']
@@ -40,12 +42,20 @@ def changeFilters():
         return render_template('main.html', sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText
           )
         
-
-        
-def searchQuery(query,startDate=None,endDate=None,sources=None,authors=None,types=None):
+def searchQuery(query, searchType,startDate=None,endDate=None,sources=None,authors=None,types=None):
         
         #TO IMPLEMENT
+        #PASS IN QUERY STRING, FILTER INFORMATION, AND WHETHER TO SEARCH WEB OR UNSTRUCTURED DATA (eg UPLOADED DOCS)
+        #searchType takes in a string of value given by SEARCHLOCATIONS. We need to connect to a different search engine
+        #for a search of webpages, or of unstructured/ uploaded docs (eg pdfs). 
+        # If both is selected then both locations will be searched seperately - NOT YET IMPLEMENTED
 
+        #Method creates searchQuery, performs relevant searches, applies filters, and returns results as required, including extractive answer.
+        
+
+        ###---HOW TO CALL BACKEND---###
+        #summary, jsonResults = SearchBackend.startSearch(query, searchType, startDate, endDate, sources, authors, types)
+        #return summary, jsonResults
 
         return summary, articleHeadings, articleSummaries, articleLinks
 
@@ -78,6 +88,13 @@ def search_genappbuilder(search_query) -> str:
         raw_response=raw_response,
     )
 '''''''''
+#Test path for backend
+@app.route('/test_search')
+def testSearch():
+        query = "How many accidents were there in 2021?"
+        summary, jsonResults = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
+        print(summary)
+        return(jsonResults)
 
 if __name__=="__main__":
         app.run(debug=True)
