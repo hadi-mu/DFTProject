@@ -14,6 +14,7 @@
 from google.cloud import discoveryengine  # , discoveryengine_v1beta
 import datetime  # required for date filters
 import consts
+import json
 
 
 def authorFilter(startDate=None, endDate=None, sources=None, authors=None, types=None):
@@ -198,6 +199,22 @@ def parseUnstructuredResults(searchResponse):
             )
     """
 
+def parseLink(link):
+    #print("OLD LINK: ",link)
+    newLink=link.replace(" ","%20")
+    newLink=newLink.replace("gs://","https://storage.cloud.google.com/")
+    #print("NEW LINK: ",newLink)
+    return newLink
+
+def titleFromLink(link):
+    link=link.replace('gs://dftprototype/','')
+    link=link.replace('.pdf','')
+    title=link
+    return title
+
+    
+
+
 
 def startSearch(query, searchType, startDate=None, endDate=None, sources=None, authors=None, types=None):
     """
@@ -241,5 +258,37 @@ def startSearch(query, searchType, startDate=None, endDate=None, sources=None, a
             client, consts.UNSTRUCT_DATASTORE, query, filter)
         summary, parsedResults = parseUnstructuredResults(response)
 
+
+
+
+    parsedDict=json.loads(parsedResults)
+    resultsArr=parsedDict["results"]
+    titleArr=[]
+    previewArr=[]
+    linkArr=[]
+    for result in resultsArr:
+        print("PARSING...")
+        
+        documentDict=result["document"]
+        docDataDict=documentDict["derivedStructData"]
+        docDataArr=docDataDict["extractive_answers"]
+        docData=docDataArr[0]
+
+        docContent=docData["content"]
+        docLink=docDataDict["link"]
+        #print(docDataDict["link"])
+
+        title=titleFromLink(docLink)
+        docLink=parseLink(docLink)
+
+        titleArr.append(title)
+        previewArr.append(docContent)
+        linkArr.append(docLink)
+
+
+
+
+
+
     # return all parsed and filtered results in desired format
-    return summary, parsedResults
+    return summary, parsedResults, titleArr, previewArr, linkArr

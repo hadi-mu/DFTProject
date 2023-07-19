@@ -1,5 +1,6 @@
 from flask import Flask,render_template,url_for,request
 import SearchBackend, consts
+import json
 
 SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
 SOURCES=['gov.uk','BBC','SkyNews'] #possible sources, authors, types etc...
@@ -12,6 +13,7 @@ typesToUse=[]
 sumText="Enter a query to see results..."
 prevHeadings=["First Result","Second Result","Third Result"]
 prevText=["Article summary goes here"]*3
+links=[]
 app=Flask(__name__)
 app.static_folder='./static'
 
@@ -20,22 +22,23 @@ app.static_folder='./static'
 def index():
           if request.method == 'POST': #query posted to this method
                   query=request.form['query']
-                  print("QUERY IS: " + request.form['query']) 
-                  global sumText
-                  sumText, jsonResults = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
-                  print("SUMMARY IS: "+ sumText)
-                  print("JSON IS: "+ jsonResults)
+                  #print("QUERY IS: " + request.form['query']) 
+                  global sumText,prevHeadings,prevText,links
+                  sumText, jsonResults, prevHeadings, prevText,links = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
+                  jsonDeser=json.loads(jsonResults)
+                  #print("SUMMARY IS: "+ sumText)
+                  #print(jsonDeser)
 
                   
-          return render_template('main.html', sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText
+          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
 
 @app.route('/date',methods=['POST','GET'])
 def changeDate():
          if request.method == 'POST': #query posted to this method
                   dateRange=request.form['start']+':'+request.form['end']
-                  print("Dates selected are " + dateRange)
-         return render_template('main.html', sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText
+                  #print("Dates selected are " + dateRange)
+         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
 
 @app.route('/filter',methods=['POST','GET'])
@@ -45,8 +48,8 @@ def changeFilters():
                 typesToUse=req.getlist('types[]')
                 authorsToUse=req.getlist('authors[]')
                 sourcesToUse=req.getlist('sources[]')
-                print("Types" + str(typesToUse))
-        return render_template('main.html', sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText
+                #print("Types" + str(typesToUse))
+        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
         
 def searchQuery(query, searchType,startDate=None,endDate=None,sources=None,authors=None,types=None):

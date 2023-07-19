@@ -150,10 +150,11 @@
 
     <div class="row">
 
-        {%for heading in headings%}
+        {%for i in range(0,length)%}
         <div class="col-4">
-
-            <h6 class="articleHeading rounded text-truncate"> {{heading}}</h6>
+            <a href="{{hyperlinks[i]}}">
+            <h6 class="articleHeading rounded text-truncate"> {{headings[i]}}</h6>
+            </a>
 
         </div>
         {% endfor %}
