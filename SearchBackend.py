@@ -11,10 +11,11 @@
 # from os.path import basename
 # from typing import List, Optional, Tuple
 
-from google.cloud import discoveryengine  # , discoveryengine_v1beta
+from google.cloud import discoveryengine,storage # , discoveryengine_v1beta
 import datetime  # required for date filters
 import consts
 import json
+from blobtest import blob_metadata
 
 
 def authorFilter(startDate=None, endDate=None, sources=None, authors=None, types=None):
@@ -234,11 +235,40 @@ def titleFromLink(link):
     title=linkSplit[-1]
     return title
 
-    
+def getTags(blob_name):
+
+    storage_client = storage.Client()
+    bucket = storage_client.bucket(consts.BUCKET_NAME)
+    blob = bucket.get_blob(blob_name)
+    metadata=blob.metadata
+    try:
+
+        types=metadata["type"]
+        author=metadata["author"]
+        date=metadata["date"]
+        source=metadata["source"]
+    except:
+        print("Error with " + blob.name )
+        types=source=date=author='ERROR'
+    return types,source,date,author
+
+
+def checkDateInRange(date,start,end):
+
+
+    date=date.split('/')
+    start=start.split('-')
+    end=end.split('-')
+
+    if (start[0]<=date[2]<=end[0]) and (start[1]<=date[1]<=end[1]) and (start[2]<=date[0]<=end[2]):
+        return True
+    else:
+        return False
 
 
 
-def startSearch(query, searchType, startDate=None, endDate=None, sources=None, authors=None, types=None):
+
+def startSearch(query, searchType, startDate="", endDate="", sources="", authors="", types=""):
     """
     Summary:
     -If filters required then create correct filter string
@@ -267,6 +297,8 @@ def startSearch(query, searchType, startDate=None, endDate=None, sources=None, a
 
 
     """
+
+    print("SELECTED FILTERS: ",startDate,endDate,sources,authors,types)
     # create search client
     client = discoveryengine.SearchServiceClient()
 
@@ -297,7 +329,7 @@ def startSearch(query, searchType, startDate=None, endDate=None, sources=None, a
     linkArr=[]
 
     for result in resultsArr: #iterates through all documents in results, extracts document content, link and title
-        
+        append=True
         documentDict=result["document"]
         docDataDict=documentDict["derivedStructData"]
         docDataArr=docDataDict["extractive_answers"]
@@ -309,10 +341,44 @@ def startSearch(query, searchType, startDate=None, endDate=None, sources=None, a
 
         title=titleFromLink(docLink)
         docLink=parseLink(docLink)
+        docTypes,source,date,author=getTags(title)
+         
+     
+        if types!=[]:
+            if not(docTypes in types):
+                append=False
 
-        titleArr.append(title)
-        previewArr.append(docContent)
-        linkArr.append(docLink)
+
+        if sources!=[]:
+            if not(source in sources):
+                append=False
+        
+        if authors!=[]:
+            if not(author in authors):
+                append=False
+        
+        if startDate or endDate:
+            if not(checkDateInRange(date,startDate,endDate)):
+                append=False
+
+        if append:
+            titleArr.append(title)
+            previewArr.append(docContent)
+            linkArr.append(docLink)
+            print("DOC ACCEPTED")
+
+
+
+
+        else:
+            print('DOC REJECTED')
+
+            
+
+
+
+
+        
 
 
 
@@ -320,4 +386,5 @@ def startSearch(query, searchType, startDate=None, endDate=None, sources=None, a
 
 
     # return all parsed and filtered results in desired format
+    print("DONE PROCESSING")
     return summary, parsedResults, titleArr, previewArr, linkArr

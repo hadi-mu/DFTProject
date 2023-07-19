@@ -6,13 +6,15 @@ import json
 SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
 
 #Constants containing possible choices for filters
-SOURCES=['gov.uk','BBC','SkyNews'] 
-AUTHORS=['Reporters','Government']
-TYPES=['Reports','Articles','Audits']
+SOURCES=['gov.uk','BBC','SkyNews','DFT'] 
+AUTHORS=['Reporters','Government','DFT']
+TYPES=['Reports','Articles','Audits','Statistics']
 
 
 #filters selected by user
 dateRange=""
+startDate=""
+endDate=""
 sourcesToUse=[]
 authorsToUse=[]
 typesToUse=[]
@@ -38,8 +40,9 @@ def index():
                   #update global variables that contain content to be displayed on frontend - performing search and getting results
                   
                   global sumText,prevHeadings,prevText,links
-                  sumText, jsonResults, prevHeadings, prevText,links = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
-                  
+                  sumText, jsonResults, prevHeadings, prevText,links = SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
+                  return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
+          )
 
                   
           return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
@@ -52,10 +55,12 @@ def index():
 def changeDate():
          
          if request.method == 'POST': 
-                  
+                  global startDate,endDate
                   #update dateRange with dates specified in form
+                  startDate=request.form['start']
+                  endDate=request.form['end']
                   dateRange=request.form['start']+':'+request.form['end']
-                  #print("Dates selected are " + dateRange)
+                  print("Dates selected are " + dateRange)
 
          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
           )
@@ -69,6 +74,7 @@ def changeFilters():
         if request.method == 'POST':
 
                 req=request.form
+                global typesToUse,sourcesToUse,authorsToUse
                 typesToUse=req.getlist('types[]')
                 authorsToUse=req.getlist('authors[]')
                 sourcesToUse=req.getlist('sources[]')
