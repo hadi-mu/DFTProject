@@ -1,0 +1,55 @@
+{
+    "results": [
+      {
+        "id": "57d6ead608f764135b18cb778504a830",
+        "document": {
+          "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/interntest_1688551513897/branches/0/documents/57d6ead608f764135b18cb778504a830",
+          "id": "57d6ead608f764135b18cb778504a830",
+          "derivedStructData": {
+            "extractive_answers": [
+              {
+                "content": "In reported road collisions in Great Britain in 2022 there were an estimated: 1695 fatalities, a decline of 3% compared to 2019 29795 killed or seriously injured (KSI) casualties, a decline of 3% compared to 2019 136002 casualties of all severities, a decline of 11% compared to 2019 Alongside this publication we have updated our factsheet on e-scooter casualties."
+              }
+            ],
+            "link": "gs://dftprototype/Reported road casualties Great Britain, provisional results_ 2022 - GOV.UK.html"
+          }
+        }
+      },
+      {
+        "id": "046404d2878a4e2019e161fd9e4c0bfb",
+        "document": {
+          "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/interntest_1688551513897/branches/0/documents/046404d2878a4e2019e161fd9e4c0bfb",
+          "id": "046404d2878a4e2019e161fd9e4c0bfb",
+          "derivedStructData": {
+            "extractive_answers": [
+              {
+                "content": "Headline figures In reported road collisions in Great Britain in 2022 there were an estimated: 1695 fatalities, a decline of 3% compared to 2019 29795 killed or seriously injured (KSI) casualties, a decline of 3% compared to 2019 136002 casualties of all severities, a decline of 11% compared to 2019 Considering the different road user types and demographics, the statistics show: the road user type with the biggest estimated percentage change for 2022 compared to 2019 for fatalities was pedestrians, which showed a decline of 20% of the 4 main road user types, car occupants had the biggest estimated percentage change for 2022 compared to 2019 for all casualties, which showed a decline of 16% in 2022, 75% of fatalities and 62% of casualties of all severities were male Chart 1: Reported road KSI (adjusted) casualties, in Great Britain, 2012 to 2022 (provisional)",
+                "pageNumber": "3"
+              }
+            ],
+            "link": "gs://dftprototype/Reported road casualties Great Britain, provisional results_ 2022 - GOV.UK.pdf"
+          }
+        }
+      },
+      {
+        "id": "d54f4e5b8148456b2059878b4dd57f3e",
+        "document": {
+          "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/interntest_1688551513897/branches/0/documents/d54f4e5b8148456b2059878b4dd57f3e",
+          "id": "d54f4e5b8148456b2059878b4dd57f3e",
+          "derivedStructData": {
+            "extractive_answers": [
+              {
+                "content": "Where we have identified any third party copyright information you will need to obtain permission from the copyright holders concerned.",
+                "pageNumber": "2"
+              }
+            ],
+            "link": "gs://dftprototype/Reported road casualties Great Britain, annual report_ 2021 - GOV.UK.pdf"
+          }
+        }
+      }
+    ],
+    "totalSize": 45,
+    "attributionToken": "U_BSCgwIy97epQYQpuXRkQMSJDY0YWJhOWM5LTAwMDAtMjExNi05ZmQwLTNjMjg2ZDQyZGI5NiIHR0VORVJJQyoUjr6dFcLwnhWmi-8XxcvzF9SynRU",
+    "guidedSearchResult": {},
+    "summary": {}
+  }

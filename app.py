@@ -9,9 +9,9 @@ dateRange=""
 sourcesToUse=[]
 authorsToUse=[]
 typesToUse=[]
-sumText="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-prevHeadings=["Provisional Report 2022","Car Accidents 2019","Fishing Accidents 2021"]
-prevText=["Test text ignore me"]*3
+sumText="Enter a query to see results..."
+prevHeadings=["First Result","Second Result","Third Result"]
+prevText=["Article summary goes here"]*3
 app=Flask(__name__)
 app.static_folder='./static'
 
@@ -19,7 +19,14 @@ app.static_folder='./static'
 @app.route('/',methods=['POST','GET'])
 def index():
           if request.method == 'POST': #query posted to this method
+                  query=request.form['query']
                   print("QUERY IS: " + request.form['query']) 
+                  global sumText
+                  sumText, jsonResults = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
+                  print("SUMMARY IS: "+ sumText)
+                  print("JSON IS: "+ jsonResults)
+
+                  
           return render_template('main.html', sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText
           )
 
