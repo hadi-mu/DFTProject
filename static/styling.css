@@ -61,3 +61,11 @@ input[type=text] {
 input[type=text]:focus {
   border-color:#333;
 }
+
+h5 {
+  font-size: 25px!important;
+}
+
+h6 {
+  font-size: 15px!important;
+}
