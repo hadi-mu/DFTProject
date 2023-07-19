@@ -134,7 +134,7 @@ def search_genappbuilder(search_query) -> str:
 @app.route('/test_search')
 def testSearch():
         query = "How many accidents were there in 2021?"
-        summary, jsonResults = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
+        summary, jsonResults, titleArr, previewArr, linkArr = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
         print(summary)
         return(jsonResults)
 
