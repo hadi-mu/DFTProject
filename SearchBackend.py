@@ -19,6 +19,8 @@ from blobtest import blob_metadata
 import vertexai
 from vertexai.language_models import TextGenerationModel
 
+
+
 vertexai.init(project="gen-ai-sandbox", location="us-central1")
 parameters = {
     "temperature": 0,
@@ -145,10 +147,7 @@ def parseWebResults(searchResponse):
         searchResponse, including_default_value_fields=False, indent=2
     )
 
-    # summary = searchResponse.summary
-    summary = "Placeholder generative summary for web search"
-
-    return summary, response_json
+    return response_json
 
     """
     TODO:
@@ -326,84 +325,17 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
                           sources=None, authors=None, types=None)
 
     # perform single search & parse results
-    if (searchType == "Web"):
-        response = performSingleSearch(
+    webResponse = performSingleSearch(
             client, consts.WEB_DATASTORE, query, filter)
-        summary, parsedResults = parseWebResults(response)
-
-    elif (searchType == "Unstructured"):
-        response = performSingleSearch(
-            client, consts.UNSTRUCT_DATASTORE, query, filter)
-        summary, parsedResults = parseUnstructuredResults(response)
+    webParsedResults = parseWebResults(webResponse)
     
+    unstResponse = performSingleSearch(
+            client, consts.UNSTRUCT_DATASTORE, query, filter)
+    unstSummary, unstParsedResults = parseUnstructuredResults(unstResponse)
+    unstSummary=model.predict('Please reword the following text: '+unstSummary).text
 
-    summary=model.predict('Please reword the following text: '+summary).text
-
-
-
-    parsedDict=json.loads(parsedResults) #convert json to dictionary
-    resultsArr=parsedDict["results"] #get list of documents in results
-
-    #arrays containing information about all documents returned in results
-    titleArr=[]
-    previewArr=[]
-    linkArr=[]
-    passCount=0
-
-    for result in resultsArr: #iterates through all documents in results, extracts document content, link and title
-        
-        if passCount<3:
-            append=True
-            
-            documentDict=result["document"]
-            docDataDict=documentDict["derivedStructData"]
-            docDataArr=docDataDict["extractive_answers"]
-            docData=docDataArr[0]
-
-            docContent=docData["content"]
-            docLink=docDataDict["link"]
-            #print(docDataDict["link"])
-
-            title=titleFromLink(docLink)
-            docLink=parseLink(docLink)
-            docTypes,source,date,author=getTags(title)
-            
-        
-            if types!=[]:
-                if not(docTypes in types):
-                    append=False
-
-
-            if sources!=[]:
-                if not(source in sources):
-                    append=False
-            
-            if authors!=[]:
-                if not(author in authors):
-                    append=False
-            
-            if startDate or endDate:
-                if not(checkDateInRange(date,startDate,endDate)):
-                    append=False
-
-            if append:
-                titleArr.append(title)
-                #print("BEFORE: ",docContent)
-                docContent=model.predict("Please reword the following text into one paragraph: "+ docContent).text
-                #print("AFTER: ",docContent)
-                previewArr.append(docContent)
-                linkArr.append(docLink)
-                #print("DOC ACCEPTED")
-                passCount+=1
-
-
-
-
-
-            #else:
-                #print('DOC REJECTED')
-
-            
+    unstTitleArr,unstLinkArr,unstPreviewArr=extractFromJSON(unstParsedResults,True,startDate,endDate,sources,authors,types)            
+    webTitleArr,webLinkArr,conts=extractFromJSON(webParsedResults,False,startDate,endDate,sources,authors,types)            
 
 
 
@@ -417,4 +349,78 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
 
     # return all parsed and filtered results in desired format
     #print("DONE PROCESSING")
-    return summary, parsedResults, titleArr, previewArr, linkArr
+
+    print(webTitleArr,webLinkArr)
+    return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr
+
+
+
+
+
+
+
+def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
+    titles=[]
+    links=[]
+    contents=[] 
+    parsedDict=json.loads(jsonFile)
+    resultsArr=parsedDict["results"]
+    passCount=0
+    for result in resultsArr:
+        if passCount<3:
+            documentDict=result["document"]
+            docDataDict=documentDict["derivedStructData"]
+            if unstructured:
+                 success,title,link,content=processUnstructuredDocDict(docDataDict,start,end,sources,authors,types)
+                 if success:
+                     passCount+=1
+                     titles.append(title)
+                     links.append(link)
+                     contents.append(content)
+                 else:
+                     print("DOC REJECTED")
+            else:
+                passCount+=1
+                title,link=processWebDataDict(docDataDict)
+                titles.append(title)
+                links.append(link)
+                print("SITE ACCEPTED")
+    return titles,links,contents
+
+
+def processUnstructuredDocDict(dataDict,startDate="", endDate="", sources="", authors="", types=""):
+    append=True
+    docDataArr=dataDict["extractive_answers"]
+    docData=docDataArr[0]
+    docContent=docData["content"]
+    docLink=dataDict["link"]
+    title=titleFromLink(docLink)
+    docLink=parseLink(docLink)
+    docTypes,source,date,author=getTags(title)
+    if types!=[]:
+                if not(docTypes in types):
+                    append=False
+
+
+    if sources!=[]:
+        if not(source in sources):
+            append=False
+    
+    if authors!=[]:
+        if not(author in authors):
+            append=False
+    
+    if startDate or endDate:
+        if not(checkDateInRange(date,startDate,endDate)):
+            append=False
+
+    if append:
+        print("DOC ACCEPTED")
+        return True,title,docLink,docContent
+    else:
+        return False,[],[],[]
+    
+def processWebDataDict(dataDict):
+    title=dataDict["title"]
+    link=dataDict["link"]
+    return title,link

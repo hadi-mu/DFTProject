@@ -21,13 +21,16 @@ typesToUse=[]
 
 #results from search to be rendered on page
 sumText="Enter a query to see results..."
-prevHeadings=["First Result","Second Result","Third Result"]
-prevText=["Article summary goes here"]*3
+prevHeadings=["  ","  "," "]
+prevText=[" "]*3
 links=[]
+webs=[" "]*3
+webLinks=[]
 
 
 app=Flask(__name__)
 app.static_folder='./static'
+
 
 
 @app.route('/',methods=['POST','GET'])
@@ -39,11 +42,11 @@ def index():
                                     
                   #update global variables that contain content to be displayed on frontend - performing search and getting results
                   
-                  global sumText,prevHeadings,prevText,links
-                  sumText, jsonResults, prevHeadings, prevText,links = SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)          
+                  global sumText,prevHeadings,prevText,links,webs,webLinks
+                  sumText, jsonResults, prevHeadings, prevText,links,webs,webLinks= SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)          
 
                   
-          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
+          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks
           )
 
 
@@ -60,7 +63,7 @@ def changeDate():
                   dateRange=request.form['start']+':'+request.form['end']
                   #print("Dates selected are " + dateRange)
 
-         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
+         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks
           )
 
 
@@ -80,7 +83,7 @@ def changeFilters():
 
                 #print("Types" + str(typesToUse))
 
-        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links
+        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks
           )
         
 

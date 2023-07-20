@@ -1,0 +1,1526 @@
+{
+  "results": [
+    {
+      "id": "0",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/0",
+        "id": "0",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Sep 29, 2022 <b>...</b> Its main focus <b>is</b> a systematic review of the evidence on the health risks of nicotine vaping. 2. Health risks. The report primarily looks at&nbsp;...",
+              "snippet": "Sep 29, 2022 ... Its main focus is a systematic review of the evidence on the health risks of nicotine vaping. 2. Health risks. The report primarily looks at\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022.../nicotine-vaping-in-england-2022-evidence- update-main-findings",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/nicotine-vaping-in-england-2022-evidence-update/nicotine-vaping-in-england-2022-evidence-update-main-findings",
+          "title": "Nicotine vaping in England: 2022 evidence update main findings ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-09-29T16:00:07.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "a928fb7e-fbff-432e-abc7-81e3e13c3019",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-01-11T18:23:26.840Z",
+                "og:title": "Nicotine vaping in England: 2022 evidence update main findings",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<OT1341>",
+                "govuk:public-updated-at": "2022-08-19T13:40:48.000Z",
+                "govuk:primary-publishing-organisation": "Office for Health Improvement and Disparities",
+                "og:url": "https://www.gov.uk/government/publications/nicotine-vaping-in-england-2022-evidence-update/nicotine-vaping-in-england-2022-evidence-update-main-findings",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Nicotine vaping in England: <b>2022</b> evidence update main <b>findings</b> ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>.../nicotine-vaping-in-england-<b>2022</b>-evidence- update-main-<b>findings</b>"
+        }
+      }
+    },
+    {
+      "id": "1",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/1",
+        "id": "1",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Jul 11, 2022 <b>...</b> A smaller sample of primary schools (135) and secondary schools (158) <b>were</b> included in the 2021 survey compared to the <b>2022</b> survey, which <b>was</b>&nbsp;...",
+              "snippet": "Jul 11, 2022 ... A smaller sample of primary schools (135) and secondary schools (158) were included in the 2021 survey compared to the 2022 survey, which was\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/educational-institutions-findings-annex-cyber- security-breaches-survey-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2022/educational-institutions-findings-annex-cyber-security-breaches-survey-2022",
+          "title": "Educational institutions findings annex - Cyber Security Breaches ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-07-06T12:59:57.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "ffe5a830-99ae-45fd-a408-856a330d093b",
+                "theme-color": "#0b0c0c",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-07-11T10:13:31.021Z",
+                "og:title": "Educational institutions findings annex - Cyber Security Breaches Survey 2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D5>",
+                "govuk:public-updated-at": "2022-10-27T10:37:00.000Z",
+                "govuk:primary-publishing-organisation": "Department for Digital, Culture, Media & Sport",
+                "og:url": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2022/educational-institutions-findings-annex-cyber-security-breaches-survey-2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Educational institutions <b>findings</b> annex - Cyber Security Breaches ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/educational-institutions-<b>findings</b>-annex-cyber- security-breaches-survey-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/2",
+        "id": "2",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Jul 7, 2022 <b>...</b> As at 31 March <b>2022</b>, although London <b>was</b> still the smallest region in terms of the proportion of homes in England (6%), it <b>was</b> no longer the&nbsp;...",
+              "snippet": "Jul 7, 2022 ... As at 31 March 2022, although London was still the smallest region in terms of the proportion of homes in England (6%), it was no longer the\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/main-findings-childrens-social-care-in-england- 2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/childrens-social-care-data-in-england-2022/main-findings-childrens-social-care-in-england-2022",
+          "title": "Main findings: children's social care in England 2022 - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "127",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmTu3N-YF-snBNje5lBiUj3SxpWl61unaoyfyyhn2dIB26DAf0r6SnKg",
+                "width": "190"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-07-07T08:30:06.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "c054e17d-d38b-4176-8d07-b44fdc1fa194",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-07-05T09:46:50.209Z",
+                "og:title": "Main findings: children\u2019s social care in England 2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D106>",
+                "govuk:public-updated-at": "2023-05-04T14:39:50.000Z",
+                "govuk:primary-publishing-organisation": "Ofsted",
+                "og:url": "https://www.gov.uk/government/statistics/childrens-social-care-data-in-england-2022/main-findings-childrens-social-care-in-england-2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/106/Ofsted-logo-gov.uk.png"
+              }
+            ]
+          },
+          "htmlTitle": "Main <b>findings</b>: children&#39;s social care in England <b>2022</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/main-<b>findings</b>-childrens-social-care-in-england- <b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/3",
+        "id": "3",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Mar 30, 2022 <b>...</b> Even now, early in <b>2022</b>, there remain concerns that NHS maternity services and their trust boards <b>are</b> still failing to adequately address&nbsp;...",
+              "snippet": "Mar 30, 2022 ... Even now, early in 2022, there remain concerns that NHS maternity services and their trust boards are still failing to adequately address\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../ockenden-review-summary-of-findings-conclusions- and-essential-actions",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/final-report-of-the-ockenden-review/ockenden-review-summary-of-findings-conclusions-and-essential-actions",
+          "title": "Ockenden review: summary of findings, conclusions and essential ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.7.0",
+                "govuk:first-published-at": "2022-03-30T12:45:33.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "e137993b-34be-4d61-860b-fd1458882c58",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-05-05T15:55:22.284Z",
+                "og:url": "https://www.gov.uk/government/publications/final-report-of-the-ockenden-review/ockenden-review-summary-of-findings-conclusions-and-essential-actions",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D12>",
+                "govuk:public-updated-at": "2022-03-29T16:30:07.000Z",
+                "govuk:primary-publishing-organisation": "Department of Health and Social Care",
+                "og:title": "Ockenden review: summary of findings, conclusions and essential actions",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Ockenden review: summary of <b>findings</b>, conclusions and essential ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../ockenden-review-summary-of-<b>findings</b>-conclusions- and-essential-actions"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/4",
+        "id": "4",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "May 11, 2023 <b>...</b> Main <b>results</b>. The data from the <b>2022</b> Commercial Victimisation Survey, showed that: an estimated 28% of all business premises <b>had been</b> a victim&nbsp;...",
+              "snippet": "May 11, 2023 ... Main results. The data from the 2022 Commercial Victimisation Survey, showed that: an estimated 28% of all business premises had been a victim\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...findings...2022.../crime-against-businesses-findings- from-the-2022-commercial-victimisation-survey",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/crime-against-businesses-findings-from-the-2022-commercial-victimisation-survey/crime-against-businesses-findings-from-the-2022-commercial-victimisation-survey",
+          "title": "Crime against businesses: findings from the 2022 Commercial ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRKWEgubHTVXvbBGhgBgz5Qn794b538WA2-8RSbPZaPvenClOzhjbklKh0",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2023-05-11T08:30:03.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "871a4f3f-8591-4cd8-91ec-d0e91355f591",
+                "theme-color": "#0b0c0c",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-06-22T11:49:40.898Z",
+                "og:title": "Crime against businesses: findings from the 2022 Commercial Victimisation Survey",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D16>",
+                "govuk:public-updated-at": "2023-05-12T13:02:13.000Z",
+                "govuk:primary-publishing-organisation": "Home Office",
+                "og:url": "https://www.gov.uk/government/statistics/crime-against-businesses-findings-from-the-2022-commercial-victimisation-survey/crime-against-businesses-findings-from-the-2022-commercial-victimisation-survey",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/183500/1-figure.svg"
+              }
+            ]
+          },
+          "htmlTitle": "Crime against businesses: <b>findings</b> from the <b>2022</b> Commercial ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>findings</b>...<b>2022</b>.../crime-against-businesses-<b>findings</b>- from-the-<b>2022</b>-commercial-victimisation-survey"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/5",
+        "id": "5",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Feb 24, 2021 <b>...</b> The research <b>was</b> extended to look at progress in the first half of the autumn term of the 2021 to <b>2022</b> academic year. The <b>findings are</b> based on&nbsp;...",
+              "snippet": "Feb 24, 2021 ... The research was extended to look at progress in the first half of the autumn term of the 2021 to 2022 academic year. The findings are based on\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../pupils-progress-in-the-2020-to-2022-academic-years",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/pupils-progress-in-the-2020-to-2022-academic-years",
+          "title": "Pupils' progress in the 2020 to 2022 academic years - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "140",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTQxZTcpOkCxZexUbqlVMrNOdRK7OOJYmLFpK_BxmvLqEfL9cF-Y9uFQ",
+                "width": "105"
+              }
+            ],
+            "metatags": [
+              {
+                "og:description": "Research reports presenting findings from analysis into the progress pupils made during the 2020 to 2021 and 2021 to 2022 academic years.",
+                "govuk:content-has-history": "true",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2021-02-24T11:30:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "d2005b89-352f-4896-aced-1d17504330e6,272308f4-05c8-4d0d-abc7-b7c2e3ccd249",
+                "og:type": "article",
+                "govuk:themes": "coronavirus-taxon, education",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "research",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "ff179ae2-d356-4e3a-9f88-583376c8e6ac",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:taxon-slug": "education-of-disadvantaged-children",
+                "og:title": "Pupils' progress in the 2020 to 2022 academic years",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:taxon-id": "d2005b89-352f-4896-aced-1d17504330e6",
+                "govuk:taxon-slugs": "education-of-disadvantaged-children,education-and-childcare",
+                "govuk:public-updated-at": "2021-02-24T11:30:00.000Z",
+                "govuk:primary-publishing-organisation": "Department for Education",
+                "govuk:analytics:organisations": "<D6>",
+                "og:url": "https://www.gov.uk/government/publications/pupils-progress-in-the-2020-to-2022-academic-years",
+                "twitter:card": "summary",
+                "govuk:updated-at": "2023-07-17T15:24:04.229Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1062286/thumbnail_Understanding_progress_in_the_2020_to_2021_academic_year_Findings_from_the_summer_term_and_summary_of_all_previous_findings.pdf.png"
+              }
+            ]
+          },
+          "htmlTitle": "Pupils&#39; progress in the 2020 to <b>2022</b> academic years - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../pupils-progress-in-the-2020-to-<b>2022</b>-academic-years"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/6",
+        "id": "6",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 28, 2022 <b>...</b> We have a particularly broad regulatory perspective and as of April <b>2022 are</b> a unique forum globally. Online services <b>are</b> playing an ever more&nbsp;...",
+              "snippet": "Apr 28, 2022 ... We have a particularly broad regulatory perspective and as of April 2022 are a unique forum globally. Online services are playing an ever more\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../findings-from-the-drcf-algorithmic-processing- workstream-spring-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/findings-from-the-drcf-algorithmic-processing-workstream-spring-2022",
+          "title": "Findings from the DRCF Algorithmic Processing workstream - Spring ...",
+          "pagemap": {
+            "metatags": [
+              {
+                "og:description": "Two discussion papers from the Digital Regulation Cooperation Forum (DRCF) Algorithmic Processing workstream, on the benefits and harms of algorithms, and on the landscape of algorithmic auditing and the role of regulators, respectively.",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:content-has-history": "true",
+                "govuk:first-published-at": "2022-04-28T08:01:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "33bc0eed-62c7-4b0b-9a93-626c9e10c025",
+                "og:type": "article",
+                "govuk:themes": "business-and-industry",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "research",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "83b7f5ec-517c-45d6-8c17-31015766f9a9",
+                "theme-color": "#0b0c0c",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-06-20T11:52:08.620Z",
+                "og:title": "Findings from the DRCF Algorithmic Processing workstream - Spring 2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D550><OT385><PB298><OT1085>",
+                "govuk:public-updated-at": "2022-09-23T09:59:59.000Z",
+                "govuk:taxon-slugs": "business-regulation",
+                "govuk:primary-publishing-organisation": "Competition and Markets Authority",
+                "govuk:taxon-id": "33bc0eed-62c7-4b0b-9a93-626c9e10c025",
+                "og:url": "https://www.gov.uk/government/publications/findings-from-the-drcf-algorithmic-processing-workstream-spring-2022",
+                "twitter:card": "summary",
+                "govuk:taxon-slug": "business-regulation"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png"
+              }
+            ]
+          },
+          "htmlTitle": "<b>Findings</b> from the DRCF Algorithmic Processing workstream - Spring ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../<b>findings</b>-from-the-drcf-algorithmic-processing- workstream-spring-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/7",
+        "id": "7",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Feb 20, 2023 <b>...</b> Parents <b>were</b> emailed on 2 September <b>2022</b> and a reminder email <b>was</b> sent on 16 September <b>2022</b>. A total of 1,485 surveys <b>were</b> completed among&nbsp;...",
+              "snippet": "Feb 20, 2023 ... Parents were emailed on 2 September 2022 and a reminder email was sent on 16 September 2022. A total of 1,485 surveys were completed among\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/childhood-vaccines-parental-attitudes-survey- 2022-findings",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/childhood-vaccines-parental-attitudes-survey-2022/childhood-vaccines-parental-attitudes-survey-2022-findings",
+          "title": "Childhood vaccines: parental attitudes survey 2022 findings - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2023-01-31T15:22:26.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "2d74d3a4-14bc-485c-9905-2bac17f6f91f",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-07-12T15:42:33.354Z",
+                "og:url": "https://www.gov.uk/government/publications/childhood-vaccines-parental-attitudes-survey-2022/childhood-vaccines-parental-attitudes-survey-2022-findings",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<EA1328>",
+                "govuk:public-updated-at": "2023-02-20T14:25:50.000Z",
+                "govuk:primary-publishing-organisation": "UK Health Security Agency",
+                "og:title": "Childhood vaccines: parental attitudes survey 2022 findings",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Childhood vaccines: parental attitudes survey <b>2022 findings</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/childhood-vaccines-parental-attitudes-survey- <b>2022</b>-<b>findings</b>"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/8",
+        "id": "8",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Nov 17, 2022 <b>...</b> In these 82 cases, HMCI deemed a WSoA <b>was</b> required. Figure 1: Area SEND inspection outcomes as at 31 March <b>2022</b>. Note: Number of local areas in&nbsp;...",
+              "snippet": "Nov 17, 2022 ... In these 82 cases, HMCI deemed a WSoA was required. Figure 1: Area SEND inspection outcomes as at 31 March 2022. Note: Number of local areas in\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/main-findings-area-send-inspections-and- outcomes-in-england-as-at-31-august-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/area-send-inspections-and-outcomes-in-england-as-at-31-august-2022/main-findings-area-send-inspections-and-outcomes-in-england-as-at-31-august-2022",
+          "title": "Main findings: Area SEND inspections and outcomes in England as ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "127",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmTu3N-YF-snBNje5lBiUj3SxpWl61unaoyfyyhn2dIB26DAf0r6SnKg",
+                "width": "190"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-11-17T09:30:08.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "2a001abb-653b-4e5e-8174-20f3f2e2667a",
+                "theme-color": "#0b0c0c",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-07-17T15:37:14.013Z",
+                "og:url": "https://www.gov.uk/government/statistics/area-send-inspections-and-outcomes-in-england-as-at-31-august-2022/main-findings-area-send-inspections-and-outcomes-in-england-as-at-31-august-2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D106>",
+                "govuk:primary-publishing-organisation": "Ofsted",
+                "govuk:public-updated-at": "2022-11-17T17:09:55.000Z",
+                "og:title": "Main findings: Area SEND inspections and outcomes in England as at 31 August 2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/106/Ofsted-logo-gov.uk.png"
+              }
+            ]
+          },
+          "htmlTitle": "Main <b>findings</b>: Area SEND inspections and outcomes in England as ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/main-<b>findings</b>-area-send-inspections-and- outcomes-in-england-as-at-31-august-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/9",
+        "id": "9",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Mar 30, 2023 <b>...</b> The survey looks at civil servants&#39; attitudes to and experience of working in government departments. These <b>are</b> the <b>results</b> of the <b>2022</b> People&nbsp;...",
+              "snippet": "Mar 30, 2023 ... The survey looks at civil servants' attitudes to and experience of working in government departments. These are the results of the 2022 People\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/government/.../civil-service-people-survey-2022-results",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/civil-service-people-survey-2022-results",
+          "title": "Civil Service People Survey: 2022 results - GOV.UK",
+          "pagemap": {
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:content-has-history": "true",
+                "govuk:first-published-at": "2023-03-30T13:00:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "f3f4b5d3-49c4-487b-bd5b-be75f11ec8c5",
+                "og:description": "The results of the 2022 People Survey, which looks at civil servants' attitudes to and experience of working in government departments.",
+                "govuk:themes": "government/all",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "transparency",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "e76592bf-8224-4f32-8c28-624c036ab9f0",
+                "theme-color": "#0b0c0c",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-07-07T16:18:26.418Z",
+                "og:title": "Civil Service People Survey: 2022 results",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:taxon-id": "f3f4b5d3-49c4-487b-bd5b-be75f11ec8c5",
+                "govuk:taxon-slugs": "government-efficiency-transparency-and-accountability",
+                "govuk:primary-publishing-organisation": "Cabinet Office",
+                "govuk:public-updated-at": "2023-07-05T16:02:44.000Z",
+                "govuk:analytics:organisations": "<D2>",
+                "og:url": "https://www.gov.uk/government/publications/civil-service-people-survey-2022-results",
+                "twitter:card": "summary",
+                "govuk:taxon-slug": "government-efficiency-transparency-and-accountability"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png"
+              }
+            ]
+          },
+          "htmlTitle": "Civil Service People Survey: <b>2022 results</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/government/.../civil-service-people-survey-<b>2022</b>-results"
+        }
+      }
+    },
+    {
+      "id": "10",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/10",
+        "id": "10",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Jun 29, 2022 <b>...</b> As at 31 March <b>2022</b>, the proportion of childminders that <b>were</b> judged outstanding at their most recent inspection <b>was</b> 13%. A lower proportion of&nbsp;...",
+              "snippet": "Jun 29, 2022 ... As at 31 March 2022, the proportion of childminders that were judged outstanding at their most recent inspection was 13%. A lower proportion of\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/main-findings-childcare-providers-and- inspections-as-at-31-march-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/childcare-providers-and-inspections-as-at-31-march-2022/main-findings-childcare-providers-and-inspections-as-at-31-march-2022",
+          "title": "Main findings: childcare providers and inspections as at 31 March ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "127",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmTu3N-YF-snBNje5lBiUj3SxpWl61unaoyfyyhn2dIB26DAf0r6SnKg",
+                "width": "190"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-06-29T08:30:02.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "c990ff19-abbb-41a8-b33e-9f45aabd653c",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-07-17T15:29:26.508Z",
+                "og:url": "https://www.gov.uk/government/statistics/childcare-providers-and-inspections-as-at-31-march-2022/main-findings-childcare-providers-and-inspections-as-at-31-march-2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D106>",
+                "govuk:primary-publishing-organisation": "Ofsted",
+                "govuk:public-updated-at": "2022-06-20T14:32:03.000Z",
+                "og:title": "Main findings: childcare providers and inspections as at 31 March 2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/106/Ofsted-logo-gov.uk.png"
+              }
+            ]
+          },
+          "htmlTitle": "Main <b>findings</b>: childcare providers and inspections as at 31 March ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/main-<b>findings</b>-childcare-providers-and- inspections-as-at-31-march-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "11",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/11",
+        "id": "11",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 18, 2022 <b>...</b> This <b>was</b> intended to help students to focus their revision and make the exams feel less daunting. For all subjects, there has been lenient&nbsp;...",
+              "snippet": "Aug 18, 2022 ... This was intended to help students to focus their revision and make the exams feel less daunting. For all subjects, there has been lenient\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../guide-to-as-and-a-level-results-in-england-summer- 2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/guide-to-as-and-a-level-results-in-england-summer-2022",
+          "title": "Guide to AS and A level results in England, summer 2022 - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRaMqRVUtWeuqkEbY4sjEkj-76y3O1XgnqgBGVQAWpO80-VbsSrjkxsGSs",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "Female A level student standing with book in hand",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/159816/s960_Female-A-level-Student.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "key-stage-5-exam-marking-qualifications-and-results",
+                "og:title": "Guide to AS and A level results in England, summer 2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D109>",
+                "govuk:taxon-slugs": "key-stage-5-exam-marking-qualifications-and-results",
+                "og:url": "https://www.gov.uk/government/news/guide-to-as-and-a-level-results-in-england-summer-2022",
+                "og:image:alt": "Female A level student standing with book in hand",
+                "twitter:card": "summary_large_image",
+                "og:description": "First summer exams since 2019 \u2013 this year\u2019s grades explained.",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2022-08-18T08:30:04.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "09e40fac-beaa-4ca9-b84e-db3bbf2c9536",
+                "govuk:themes": "education",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "189affb3-ce70-43ba-86a2-c9d594e31cd5",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/159816/s960_Female-A-level-Student.jpg",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-04-12T13:11:48.887Z",
+                "govuk:taxon-id": "09e40fac-beaa-4ca9-b84e-db3bbf2c9536",
+                "govuk:primary-publishing-organisation": "Ofqual",
+                "govuk:public-updated-at": "2022-08-18T08:30:04.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/159816/s960_Female-A-level-Student.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Guide to AS and A level <b>results</b> in England, summer <b>2022</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../guide-to-as-and-a-level-results-in-england-summer- <b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "12",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/12",
+        "id": "12",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Sep 23, 2022 <b>...</b> These areas <b>were</b> developed by DRCF members in conjunction with ... laying the groundwork for future action in DRCF&#39;s <b>2022</b> to 23 workplan.",
+              "snippet": "Sep 23, 2022 ... These areas were developed by DRCF members in conjunction with ... laying the groundwork for future action in DRCF's 2022 to 23 workplan."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../findings...2022/the-benefits-and-harms-of-algorithms- a-shared-perspective-from-the-four-digital-regulators",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/findings-from-the-drcf-algorithmic-processing-workstream-spring-2022/the-benefits-and-harms-of-algorithms-a-shared-perspective-from-the-four-digital-regulators",
+          "title": "The benefits and harms of algorithms: a shared perspective from the ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpcQ7RRzGHEaIaJOxv8noMEewW8CN7zAHboU_5oOFWSzEAmkkx-1D95IBO",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-04-28T08:01:12.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "7e8fd019-b593-4a82-a52f-de4b3435faa1",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-05-10T07:16:01.170Z",
+                "og:url": "https://www.gov.uk/government/publications/findings-from-the-drcf-algorithmic-processing-workstream-spring-2022/the-benefits-and-harms-of-algorithms-a-shared-perspective-from-the-four-digital-regulators",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<PB298><OT385><D550><OT1085>",
+                "govuk:public-updated-at": "2023-01-03T14:56:01.000Z",
+                "govuk:primary-publishing-organisation": "Competition and Markets Authority",
+                "og:title": "The benefits and harms of algorithms: a shared perspective from the four digital regulators",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/148339/DRCF-logo.png"
+              }
+            ]
+          },
+          "htmlTitle": "The benefits and harms of algorithms: a shared perspective from the ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../<b>findings</b>...<b>2022</b>/the-benefits-and-harms-of-algorithms- a-shared-perspective-from-the-four-digital-regulators"
+        }
+      }
+    },
+    {
+      "id": "13",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/13",
+        "id": "13",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "May 11, 2023 <b>...</b> Details. This publication <b>is</b> based on data from the <b>2022</b> Commercial Victimisation Survey (CVS), which examines the extent of crime against&nbsp;...",
+              "snippet": "May 11, 2023 ... Details. This publication is based on data from the 2022 Commercial Victimisation Survey (CVS), which examines the extent of crime against\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../crime-against-businesses-findings-from-the-2022- commercial-victimisation-survey",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/crime-against-businesses-findings-from-the-2022-commercial-victimisation-survey",
+          "title": "Crime against businesses: findings from the 2022 Commercial ...",
+          "pagemap": {
+            "metatags": [
+              {
+                "og:description": "Data from the 2022 Commercial Victimisation Survey, which looks at crime against businesses in England and Wales.",
+                "govuk:content-has-history": "true",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2023-05-11T08:30:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "ba951b09-5146-43be-87af-44075eac3ae9",
+                "og:type": "article",
+                "govuk:themes": "crime-justice-and-law",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "official_statistics",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "f7af2e55-f1ca-4828-91f0-d043cd8f18a6",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-06-22T11:49:39.791Z",
+                "og:url": "https://www.gov.uk/government/statistics/crime-against-businesses-findings-from-the-2022-commercial-victimisation-survey",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D16>",
+                "govuk:taxon-slugs": "crime-justice-and-law",
+                "govuk:primary-publishing-organisation": "Home Office",
+                "govuk:public-updated-at": "2023-05-11T08:30:00.000Z",
+                "govuk:taxon-id": "ba951b09-5146-43be-87af-44075eac3ae9",
+                "og:title": "Crime against businesses: findings from the 2022 Commercial Victimisation Survey",
+                "twitter:card": "summary",
+                "govuk:taxon-slug": "crime-justice-and-law"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png"
+              }
+            ]
+          },
+          "htmlTitle": "Crime against businesses: <b>findings</b> from the <b>2022</b> Commercial ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../crime-against-businesses-<b>findings</b>-from-the-<b>2022</b>- commercial-victimisation-survey"
+        }
+      }
+    },
+    {
+      "id": "14",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/14",
+        "id": "14",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Jun 9, 2022 <b>...</b> Read about the GCA <b>2022</b> Groceries Sector Survey <b>results</b>. ... There <b>were</b> more than 2,500 responses to the <b>2022</b> Groceries Sector Survey \u2013 the&nbsp;...",
+              "snippet": "Jun 9, 2022 ... Read about the GCA 2022 Groceries Sector Survey results. ... There were more than 2,500 responses to the 2022 Groceries Sector Survey \u2013 the\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../inflationary-pressures-strain-relationships-between- retailers-and-suppliers",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/inflationary-pressures-strain-relationships-between-retailers-and-suppliers",
+          "title": "Inflationary pressures strain relationships between retailers and ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1_TBNqvKwsOz4HOOsJTphjCXhsx2yXOxkxyZpp21WkoihYJYbV0LKFz4",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "og:description": "Read about the GCA 2022 Groceries Sector Survey results.",
+                "govuk:content-has-history": "true",
+                "govuk:components_gem_version": "35.10.0",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/152805/s960_Mark_-_colour.jpg",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:first-published-at": "2022-06-09T09:00:00.000Z",
+                "og:type": "article",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "news_story",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "news_article",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "90915b8b-547a-4e66-93d5-141666a0d8ff",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/152805/s960_Mark_-_colour.jpg",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-03-11T12:36:37.325Z",
+                "og:title": "Inflationary pressures strain relationships between retailers and suppliers",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<OT551>",
+                "govuk:primary-publishing-organisation": "Groceries Code Adjudicator",
+                "govuk:public-updated-at": "2022-06-09T09:00:00.000Z",
+                "og:url": "https://www.gov.uk/government/news/inflationary-pressures-strain-relationships-between-retailers-and-suppliers",
+                "twitter:card": "summary_large_image"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/152805/s960_Mark_-_colour.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Inflationary pressures strain relationships between retailers and ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../inflationary-pressures-strain-relationships-between- retailers-and-suppliers"
+        }
+      }
+    },
+    {
+      "id": "15",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/15",
+        "id": "15",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Mar 30, 2022 <b>...</b> 1.5 Interpretation of <b>findings</b>. How to interpret the quantitative data. The survey <b>results are</b> subject to margins of error, which vary with the&nbsp;...",
+              "snippet": "Mar 30, 2022 ... 1.5 Interpretation of findings. How to interpret the quantitative data. The survey results are subject to margins of error, which vary with the\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../cyber...2022/cyber-security-breaches-survey-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2022/cyber-security-breaches-survey-2022",
+          "title": "Cyber Security Breaches Survey 2022 - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcROWjEvafiyOu2mnViDZikVrdhQc1SuflVM6krev_A6rdfQAKWIzK0fIkyf",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-03-30T08:30:06.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "8800383d-2dd0-4235-819d-aa61c613f3f3",
+                "theme-color": "#0b0c0c",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-07-17T15:24:05.418Z",
+                "og:url": "https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2022/cyber-security-breaches-survey-2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D5>",
+                "govuk:primary-publishing-organisation": "Department for Digital, Culture, Media & Sport",
+                "govuk:public-updated-at": "2022-10-27T10:36:59.000Z",
+                "og:title": "Cyber Security Breaches Survey 2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/146386/Figure_5.1.JPG"
+              }
+            ]
+          },
+          "htmlTitle": "Cyber Security Breaches Survey <b>2022</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../cyber...<b>2022</b>/cyber-security-breaches-survey-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "16",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/16",
+        "id": "16",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Nov 17, 2022 <b>...</b> The Low Pay Commission (LPC) <b>is</b> an independent public body that advises the Government on the rates of the National Minimum Wage (NMW),&nbsp;...",
+              "snippet": "Nov 17, 2022 ... The Low Pay Commission (LPC) is an independent public body that advises the Government on the rates of the National Minimum Wage (NMW),\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../low-pay-commission-summary-of-findings-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/minimum-wage-rates-for-2023/low-pay-commission-summary-of-findings-2022",
+          "title": "Low Pay Commission summary of findings 2022 - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "158",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNwCf0uIVwLiNYYOqoHy2dNgs3kxeidHefT3l39WMlDYsdh515bcBegiw",
+                "width": "156"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-11-17T12:25:30.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "3c8d10d4-413b-4743-9771-8bdb25ffbbca",
+                "theme-color": "#0b0c0c",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-07-17T15:36:18.264Z",
+                "og:url": "https://www.gov.uk/government/publications/minimum-wage-rates-for-2023/low-pay-commission-summary-of-findings-2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<PB122>",
+                "govuk:primary-publishing-organisation": "Low Pay Commission",
+                "govuk:public-updated-at": "2022-11-17T12:32:28.000Z",
+                "og:title": "Low Pay Commission summary of findings 2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/122/logo_156_X_158.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Low Pay Commission summary of <b>findings 2022</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../low-pay-commission-summary-of-<b>findings</b>-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "17",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/17",
+        "id": "17",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Mar 3, 2023 <b>...</b> On 31 August <b>2022</b>, there <b>were</b> 1.28 million childcare places offered by providers registered on the Early Years Register (EYR). As at 31 August&nbsp;...",
+              "snippet": "Mar 3, 2023 ... On 31 August 2022, there were 1.28 million childcare places offered by providers registered on the Early Years Register (EYR). As at 31 August\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/main-findings-childcare-providers-and- inspections-as-at-31-august-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/childcare-providers-and-inspections-as-at-31-august-2022/main-findings-childcare-providers-and-inspections-as-at-31-august-2022",
+          "title": "Main findings: Childcare providers and inspections as at 31 August ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "127",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmTu3N-YF-snBNje5lBiUj3SxpWl61unaoyfyyhn2dIB26DAf0r6SnKg",
+                "width": "190"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-11-30T09:30:04.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "36dcf45c-82b1-4447-b753-5804d8980348",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-06-22T11:47:46.116Z",
+                "og:url": "https://www.gov.uk/government/statistics/childcare-providers-and-inspections-as-at-31-august-2022/main-findings-childcare-providers-and-inspections-as-at-31-august-2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D106>",
+                "govuk:primary-publishing-organisation": "Ofsted",
+                "govuk:public-updated-at": "2023-03-03T15:35:04.000Z",
+                "og:title": "Main findings: Childcare providers and inspections as at 31 August 2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/106/Ofsted-logo-gov.uk.png"
+              }
+            ]
+          },
+          "htmlTitle": "Main <b>findings</b>: Childcare providers and inspections as at 31 August ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/main-<b>findings</b>-childcare-providers-and- inspections-as-at-31-august-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "18",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/18",
+        "id": "18",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 18, 2023 <b>...</b> The survey looks at civil servants&#39; attitudes to and experience of working in government departments. The <b>2022</b> People Survey <b>was</b> open from 22&nbsp;...",
+              "snippet": "Apr 18, 2023 ... The survey looks at civil servants' attitudes to and experience of working in government departments. The 2022 People Survey was open from 22\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/government/publications/people-survey-results-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/people-survey-results-2022",
+          "title": "People survey results 2022 - GOV.UK",
+          "pagemap": {
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:content-has-history": "true",
+                "govuk:first-published-at": "2023-04-18T11:58:24.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "d949275c-88f8-4623-a44b-eb3706651e10",
+                "og:description": "This report presents the results from the Civil service people survey 2022.",
+                "govuk:themes": "business-and-industry",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "transparency",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "946a183f-732a-4906-917e-6025fb51eb6f",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-06-22T11:48:42.586Z",
+                "og:title": "People survey results 2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:taxon-id": "d949275c-88f8-4623-a44b-eb3706651e10",
+                "govuk:public-updated-at": "2023-04-18T11:58:24.000Z",
+                "govuk:primary-publishing-organisation": "Intellectual Property Office",
+                "govuk:taxon-slugs": "intellectual-property",
+                "govuk:analytics:organisations": "<EA34>",
+                "og:url": "https://www.gov.uk/government/publications/people-survey-results-2022",
+                "twitter:card": "summary",
+                "govuk:taxon-slug": "intellectual-property"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png"
+              }
+            ]
+          },
+          "htmlTitle": "People survey <b>results 2022</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/government/publications/people-survey-results-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "19",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/19",
+        "id": "19",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Sep 23, 2022 <b>...</b> Our <b>findings</b> suggested this <b>was</b> due to organisations with algorithmic ... to publish an AI White Paper focusing on governance in <b>2022</b>.",
+              "snippet": "Sep 23, 2022 ... Our findings suggested this was due to organisations with algorithmic ... to publish an AI White Paper focusing on governance in 2022."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../findings...2022/auditing-algorithms-the-existing- landscape-role-of-regulators-and-future-outlook",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/findings-from-the-drcf-algorithmic-processing-workstream-spring-2022/auditing-algorithms-the-existing-landscape-role-of-regulators-and-future-outlook",
+          "title": "Auditing algorithms: the existing landscape, role of regulators and ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpcQ7RRzGHEaIaJOxv8noMEewW8CN7zAHboU_5oOFWSzEAmkkx-1D95IBO",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.7.0",
+                "govuk:first-published-at": "2022-04-28T08:01:14.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "8d9132c6-1d8f-484c-88ab-901d901bb873",
+                "theme-color": "#0b0c0c",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-05-10T07:16:16.972Z",
+                "og:url": "https://www.gov.uk/government/publications/findings-from-the-drcf-algorithmic-processing-workstream-spring-2022/auditing-algorithms-the-existing-landscape-role-of-regulators-and-future-outlook",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<PB298><OT385><D550><OT1085>",
+                "govuk:public-updated-at": "2023-01-03T14:56:04.000Z",
+                "govuk:primary-publishing-organisation": "Competition and Markets Authority",
+                "og:title": "Auditing algorithms: the existing landscape, role of regulators and future outlook",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/148339/DRCF-logo.png"
+              }
+            ]
+          },
+          "htmlTitle": "Auditing algorithms: the existing landscape, role of regulators and ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../<b>findings</b>...<b>2022</b>/auditing-algorithms-the-existing- landscape-role-of-regulators-and-future-outlook"
+        }
+      }
+    },
+    {
+      "id": "20",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/20",
+        "id": "20",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 25, 2022 <b>...</b> This <b>was</b> intended to help students to focus their revision and make the exams feel less daunting. For all subjects, there has been lenient&nbsp;...",
+              "snippet": "Aug 25, 2022 ... This was intended to help students to focus their revision and make the exams feel less daunting. For all subjects, there has been lenient\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../guide-to-gcse-results-for-england-summer-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/guide-to-gcse-results-for-england-summer-2022",
+          "title": "Guide to GCSE results for England, summer 2022 - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRP-S-Wz4nitF2EASBVXRFNutDu0LxUeGubXHHWaV_rvujY-hmQHBrCDoM",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "Students in a classroom listening to a teacher",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/160409/s960_Teacher-Students-Classroom.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "key-stage-3-and-4-exam-marking-qualifications-and-results",
+                "og:title": "Guide to GCSE results for England, summer 2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D109>",
+                "govuk:taxon-slugs": "key-stage-3-and-4-exam-marking-qualifications-and-results",
+                "og:url": "https://www.gov.uk/government/news/guide-to-gcse-results-for-england-summer-2022",
+                "og:image:alt": "Students in a classroom listening to a teacher",
+                "twitter:card": "summary_large_image",
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "og:description": "First summer exams since 2019 \u2013 this year\u2019s grades explained.",
+                "govuk:first-published-at": "2022-08-25T08:30:09.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "af89d06d-db1c-4a37-a8df-63d1e308c183",
+                "govuk:themes": "education",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "e6c61874-2395-44a7-b51b-2cf9ab079c79",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/160409/s960_Teacher-Students-Classroom.jpg",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-04-12T13:13:19.094Z",
+                "govuk:taxon-id": "af89d06d-db1c-4a37-a8df-63d1e308c183",
+                "govuk:primary-publishing-organisation": "Ofqual",
+                "govuk:public-updated-at": "2022-08-25T08:30:09.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/160409/s960_Teacher-Students-Classroom.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Guide to GCSE <b>results</b> for England, summer <b>2022</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../guide-to-gcse-results-for-england-summer-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "21",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/21",
+        "id": "21",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Nov 24, 2022 <b>...</b> Analysis of <b>results</b> for different groups of students: GCSEs, ... The difference in <b>2022</b>, however, <b>is</b> smaller than in 2018 and 2019,&nbsp;...",
+              "snippet": "Nov 24, 2022 ... Analysis of results for different groups of students: GCSEs, ... The difference in 2022, however, is smaller than in 2018 and 2019,\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../equalities-analysis-further-insights-from-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/speeches/equalities-analysis-further-insights-from-2022",
+          "title": "Equalities analysis: further insights from 2022 - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeY4bpxVP_yHIdJnZJ0tcO9AxkiM2Bnbrf-J_FqAlaBUj5dnSmfEace_E",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "A profile image of Dr Jo Saxton.",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/93264/DrJoSaxton_960x640_1.png",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "authored_article",
+                "govuk:schema-name": "speech",
+                "govuk:taxon-slug": "key-stage-3-and-4-exam-marking-qualifications-and-results",
+                "og:url": "https://www.gov.uk/government/speeches/equalities-analysis-further-insights-from-2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D109>",
+                "govuk:taxon-slugs": "key-stage-3-and-4-exam-marking-qualifications-and-results",
+                "og:title": "Equalities analysis: further insights from 2022",
+                "og:image:alt": "A profile image of Dr Jo Saxton.",
+                "twitter:card": "summary_large_image",
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "og:description": "Analysis of results for different groups of students: GCSEs, A level and some vocational\r\nand technical qualifications.",
+                "govuk:first-published-at": "2022-11-24T12:00:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "af89d06d-db1c-4a37-a8df-63d1e308c183",
+                "govuk:themes": "education",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "e2e0cb72-29e3-420c-87e2-edcadeed0aeb",
+                "theme-color": "#0b0c0c",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/93264/DrJoSaxton_960x640_1.png",
+                "govuk:updated-at": "2023-04-12T13:13:17.229Z",
+                "govuk:taxon-id": "af89d06d-db1c-4a37-a8df-63d1e308c183",
+                "govuk:primary-publishing-organisation": "Ofqual",
+                "govuk:public-updated-at": "2022-11-24T12:00:00.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/93264/DrJoSaxton_960x640_1.png"
+              }
+            ]
+          },
+          "htmlTitle": "Equalities analysis: further insights from <b>2022</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../equalities-analysis-further-insights-from-<b>2022</b>"
+        }
+      }
+    },
+    {
+      "id": "22",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/22",
+        "id": "22",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 11, 2022 <b>...</b> They <b>are</b> aware of the regulator&#39;s proposed high-level approach to implementing the regulatory changes outlined in the Social Housing White Paper&nbsp;...",
+              "snippet": "Aug 11, 2022 ... They are aware of the regulator's proposed high-level approach to implementing the regulatory changes outlined in the Social Housing White Paper\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/stakeholder-survey-results-2022-accessible- version",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/rsh-stakeholder-survey-2022/stakeholder-survey-results-2022-accessible-version",
+          "title": "Stakeholder survey results 2022 (accessible version) - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-08-11T08:30:07.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "42cf39e8-6ce7-48c4-b9fd-12fd461ee6ed",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-06-22T11:43:30.503Z",
+                "og:url": "https://www.gov.uk/government/publications/rsh-stakeholder-survey-2022/stakeholder-survey-results-2022-accessible-version",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<PB1218>",
+                "govuk:public-updated-at": "2022-08-09T08:28:17.000Z",
+                "govuk:primary-publishing-organisation": "Regulator of Social Housing",
+                "og:title": "Stakeholder survey results 2022 (accessible version)",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Stakeholder survey <b>results 2022</b> (accessible version) - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/stakeholder-survey-results-<b>2022</b>-accessible- version"
+        }
+      }
+    },
+    {
+      "id": "23",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/23",
+        "id": "23",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "May 26, 2023 <b>...</b> We <b>are</b> aware that this publication may have accessibility issues. We <b>are</b> reviewing it so that we can fix these. Read more about our accessible&nbsp;...",
+              "snippet": "May 26, 2023 ... We are aware that this publication may have accessibility issues. We are reviewing it so that we can fix these. Read more about our accessible\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../local-authority-survey-2022-responses-and-key- findings",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/local-authority-survey-2022-responses-and-key-findings",
+          "title": "Local authority survey 2022: responses and key findings - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "140",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTCu9lUedhZ1mM6BMSZFLilg7YvUH3ce1mi9H9CbUg3SFTzGAz2jLJiQ",
+                "width": "105"
+              }
+            ],
+            "metatags": [
+              {
+                "og:description": "Analysis of the results of a survey of local authorities on their use of overt surveillance camera systems in public places.",
+                "govuk:content-has-history": "true",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2023-05-26T13:35:08.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:type": "article",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "research",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "98abb6f6-d637-47e8-9087-1385cdce0b9e",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-05-26T13:49:14.136Z",
+                "og:url": "https://www.gov.uk/government/publications/local-authority-survey-2022-responses-and-key-findings",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<IM1345>",
+                "govuk:primary-publishing-organisation": "Biometrics and Surveillance Camera Commissioner",
+                "govuk:public-updated-at": "2023-05-26T13:35:08.000Z",
+                "og:title": "Local authority survey 2022: responses and key findings",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1159279/thumbnail_20230517_LA_survey_paper_FINAL.pdf.png"
+              }
+            ]
+          },
+          "htmlTitle": "Local authority survey <b>2022</b>: responses and key <b>findings</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../local-authority-survey-<b>2022</b>-responses-and-key- <b>findings</b>"
+        }
+      }
+    },
+    {
+      "id": "24",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/24",
+        "id": "24",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Nov 29, 2022 <b>...</b> On 31 August <b>2022</b>, 94% of age-phase providers <b>were</b> judged good or outstanding at their most recent inspection. This proportion has fallen since&nbsp;...",
+              "snippet": "Nov 29, 2022 ... On 31 August 2022, 94% of age-phase providers were judged good or outstanding at their most recent inspection. This proportion has fallen since\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...2022/main-findings-initial-teacher-education- inspections-and-outcomes-as-at-31-august-2022",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/statistics/initial-teacher-education-inspections-and-outcomes-as-at-31-august-2022/main-findings-initial-teacher-education-inspections-and-outcomes-as-at-31-august-2022",
+          "title": "Main findings: Initial teacher education inspections and outcomes as ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "127",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmTu3N-YF-snBNje5lBiUj3SxpWl61unaoyfyyhn2dIB26DAf0r6SnKg",
+                "width": "190"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-11-29T09:30:08.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "a836aefd-a15d-4e28-adf3-056b12c4688d",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-06-22T11:45:39.761Z",
+                "og:url": "https://www.gov.uk/government/statistics/initial-teacher-education-inspections-and-outcomes-as-at-31-august-2022/main-findings-initial-teacher-education-inspections-and-outcomes-as-at-31-august-2022",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D106>",
+                "govuk:public-updated-at": "2022-11-24T18:04:49.000Z",
+                "govuk:primary-publishing-organisation": "Ofsted",
+                "og:title": "Main findings: Initial teacher education inspections and outcomes as at 31 August 2022",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/106/Ofsted-logo-gov.uk.png"
+              }
+            ]
+          },
+          "htmlTitle": "Main <b>findings</b>: Initial teacher education inspections and outcomes as ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>2022</b>/main-<b>findings</b>-initial-teacher-education- inspections-and-outcomes-as-at-31-august-<b>2022</b>"
+        }
+      }
+    }
+  ],
+  "totalSize": 26200,
+  "attributionToken": "U_BSCgwI3aTkpQYQz9HuggESJDY0Yjg4YzMxLTAwMDAtMjI2Yy05NzMyLTNjMjg2ZDM0NmFlMiIHR0VORVJJQyoUwvCeFdSynRXFy_MXjr6dFaaL7xc",
+  "nextPageToken": "ITZhZDNzQmN4IzYz0iMzcTOtMmNyITLwADMw0CMzMGO4IGN2QiGBk-zfnPEGUK9N2NCMIRNyIgC",
+  "guidedSearchResult": {},
+  "summary": {}
+}

@@ -69,3 +69,24 @@ h5 {
 h6 {
   font-size: 15px!important;
 }
+
+.buttonLabels{
+
+  margin-left: 10px;
+
+}
+
+.subHeading{
+  margin-top: 20px;
+}
+
+.row-no-bottom-margin{
+  margin-bottom: 0px!important;
+  padding: 0px!important;
+}
+
+.row-no-top-margin{
+  margin-top: 0px!important;
+  padding: 0px!important;
+
+}

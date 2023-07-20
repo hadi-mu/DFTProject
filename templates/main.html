@@ -34,10 +34,11 @@
 
 
 <body>
-
     <div class="row g-0">
         <img src="{{url_for('static',filename='images/banner.png')}}" alt="DFT Logo" class="img-fluid">
     </div>
+
+<div class="container">
 
     <div class="searchBar">
 
@@ -56,22 +57,22 @@
         </div><!-- /.container -->
     </div>
 
-    <div class="row " style="margin-left:10px;"> 
+    <div class="row buttonLabels"> 
         <div class="col-2"> </div>
-        <div class="col-2">    <h6 class="display-6" style="margin-top: 20px">Dates:</h6>
+        <div class="col-2">    <h6 class="display-6" >Dates:</h6>
         </div>
-        <div class="col-2">    <h6 class="display-6" style="margin-top: 20px;">Types:</h6>
+        <div class="col-2">    <h6 class="display-6" >Types:</h6>
         </div>
-        <div class="col-2">    <h6 class="display-6" style="margin-top: 20px;">Sources:</h6>
+        <div class="col-2">    <h6 class="display-6">Sources:</h6>
         </div>
-        <div class="col-2">    <h6 class="display-6" style="margin-top: 20px;">Authors:</h6>
+        <div class="col-2">    <h6 class="display-6" >Authors:</h6>
         </div>
         <div class="col-2"> </div>
     </div>
 
 
 
-    <div class="row " style="margin-top:0px; margin-left:10px;"> 
+    <div class="row buttonLabels"> 
     
             <div class="col-2"> </div>
 
@@ -136,9 +137,9 @@
     </div>
 
 
-    <div class="row summary">
+    <div class="row">
 
-            <h2 class="display-2" style="margin-top: 20px;">Overall Findings</h2>
+            <h2 class="display-2 subHeading">Overall Findings</h2>
 
 
             <p class="lead">
@@ -149,7 +150,7 @@
     </div>   
 
 
-    <div class="row">
+    <div class="row row-no-bottom-margin">
 
         {%for i in range(0,3)%}
         <div class="col-4">
@@ -163,7 +164,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="row row-no-top-margin">
 
         {%for i in range(0,3)%}
         <div class="col-4">
@@ -176,6 +177,29 @@
        
     </div>
 
-    
+    <div class="row"> 
+        <h2 class="display-2 subHeading">Web Findings</h2>
+    </div>
+
+    <div class="row"> 
+        {%for i in range(0,3)%}
+            <div class="col-4">
+
+                <a href="{{webLinks[i]}}">
+                <h5 class="articleHeading rounded text-truncate"> {{webFindings[i]}}</h5>
+                </a>
+
+            </div>
+        {% endfor %}
+    </div>
+
+
+
+
+
+
+
+
+</div>
 </body>
 </html>
