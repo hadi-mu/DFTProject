@@ -463,16 +463,20 @@ def processWebDataDict(dataDict):
     return title,link,snip
 
 def webFilters(dataDict,startDate,endDate,type):
-    passed=True
-    map=dataDict["pagemap"]
-    tags=map["metatags"][0]
-    date=tags["govuk:first-published-at"]
-    date=date[0:9]
-    pageType=tags["og:type"].capitalize()
-    if startDate or endDate:
-        if not(checkDateInRange(date,startDate,endDate,True)):
-            passed=False
-    if type:
-        if not(pageType in type):
-            passed=False
-    return passed
+    try:
+        passed=True
+        map=dataDict["pagemap"]
+        tags=map["metatags"][0]
+        date=tags["govuk:first-published-at"]
+        date=date[0:9]
+        pageType=tags["og:type"].capitalize()
+        if startDate or endDate:
+            if not(checkDateInRange(date,startDate,endDate,True)):
+                passed=False
+        if type:
+            if not(pageType in type):
+                passed=False
+        return passed
+    except:
+        print("ERROR FILTERING WEBPAGE")
+        return True
