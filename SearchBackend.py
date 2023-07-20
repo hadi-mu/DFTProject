@@ -263,26 +263,42 @@ def getTags(blob_name):
     return types,source,date,author
 
 
-def checkDateInRange(date,start,end):
-
-
-    date=date.split('/')
-    start=start.split('-')
-    end=end.split('-')
-
-    #print(start)
-    #print(end)
-    #print(date)
-
+def checkDateInRange(date,start,end,web=False):
     try:
 
-        if (start[0]<=date[2]<=end[0]) and (start[1]<=date[1]<=end[1]) and (start[2]<=date[0]<=end[2]):
+        if web:
+            date=date.split('-')
+        else:
+            date=date.split('/')
+            date.reverse()
+
+        start=start.split('-')
+        end=end.split('-')
+
+        start=list(map(int,start))
+        date=list(map(int,date))
+        end=list(map(int,end))
+
+        start=datetime.datetime(*start)
+        date=datetime.datetime(*date)
+        end=datetime.datetime(*end)
+
+
+        #print(start)
+        #print(end)
+        #print(date)
+
+
+        if date=="":
+            return True
+        
+        if start<date<end:
             return True
         else:
             return False
-    except: 
-        return True
 
+    except:
+        return False
 
 
 
@@ -350,7 +366,6 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     # return all parsed and filtered results in desired format
     #print("DONE PROCESSING")
 
-    print(webTitleArr,webLinkArr)
     return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr,webConts
 
 
@@ -381,11 +396,31 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
                      print("DOC REJECTED")
             else:
                 passCount+=1
-                title,link,content=processWebDataDict(docDataDict)
-                titles.append(title)
-                links.append(link)
-                contents.append(content)
-                print("SITE ACCEPTED")
+                if webFilters(docDataDict,start,end,types):
+                        title,link,content=processWebDataDict(docDataDict)
+                        titles.append(title)
+                        links.append(link)
+                        contents.append(content)
+                        print("SITE ACCEPTED")
+                else:
+                    print("SITE REJECTED")
+                """
+                try:
+                    if webFilters(docDataDict,start,end,types):
+                        title,link,content=processWebDataDict(docDataDict)
+                        titles.append(title)
+                        links.append(link)
+                        contents.append(content)
+                        print("SITE ACCEPTED")
+                except Exception as e:
+                    print("ERROR: ",e)
+                    title,link,content=processWebDataDict(docDataDict)
+                    titles.append(title)
+                    links.append(link)
+                    contents.append(content)
+                    print("SITE ACCEPTED")
+                """
+                
     return titles,links,contents
 
 
@@ -426,3 +461,18 @@ def processWebDataDict(dataDict):
     link=dataDict["link"]
     snip=dataDict["snippets"][0]["snippet"]
     return title,link,snip
+
+def webFilters(dataDict,startDate,endDate,type):
+    passed=True
+    map=dataDict["pagemap"]
+    tags=map["metatags"][0]
+    date=tags["govuk:first-published-at"]
+    date=date[0:9]
+    pageType=tags["og:type"].capitalize()
+    if startDate or endDate:
+        if not(checkDateInRange(date,startDate,endDate,True)):
+            passed=False
+    if type:
+        if not(pageType in type):
+            passed=False
+    return passed

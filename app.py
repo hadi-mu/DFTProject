@@ -8,7 +8,7 @@ SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
 #Constants containing possible choices for filters
 SOURCES=['gov.uk','BBC','SkyNews','DFT'] 
 AUTHORS=['Reporters','Government','DFT']
-TYPES=['Reports','Articles','Audits','Statistics']
+TYPES=['Reports','Article','Audits','Statistics']
 
 
 #filters selected by user
