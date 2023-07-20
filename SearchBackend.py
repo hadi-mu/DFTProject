@@ -335,7 +335,7 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     unstSummary=model.predict('Please reword the following text: '+unstSummary).text
 
     unstTitleArr,unstLinkArr,unstPreviewArr=extractFromJSON(unstParsedResults,True,startDate,endDate,sources,authors,types)            
-    webTitleArr,webLinkArr,conts=extractFromJSON(webParsedResults,False,startDate,endDate,sources,authors,types)            
+    webTitleArr,webLinkArr,webConts=extractFromJSON(webParsedResults,False,startDate,endDate,sources,authors,types)            
 
 
 
@@ -351,7 +351,7 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     #print("DONE PROCESSING")
 
     print(webTitleArr,webLinkArr)
-    return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr
+    return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr,webConts
 
 
 
@@ -381,9 +381,10 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
                      print("DOC REJECTED")
             else:
                 passCount+=1
-                title,link=processWebDataDict(docDataDict)
+                title,link,content=processWebDataDict(docDataDict)
                 titles.append(title)
                 links.append(link)
+                contents.append(content)
                 print("SITE ACCEPTED")
     return titles,links,contents
 
@@ -423,4 +424,5 @@ def processUnstructuredDocDict(dataDict,startDate="", endDate="", sources="", au
 def processWebDataDict(dataDict):
     title=dataDict["title"]
     link=dataDict["link"]
-    return title,link
+    snip=dataDict["snippets"][0]["snippet"]
+    return title,link,snip

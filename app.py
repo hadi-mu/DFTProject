@@ -26,6 +26,7 @@ prevText=[" "]*3
 links=[]
 webs=[" "]*3
 webLinks=[]
+webContents=[]
 
 
 app=Flask(__name__)
@@ -42,11 +43,11 @@ def index():
                                     
                   #update global variables that contain content to be displayed on frontend - performing search and getting results
                   
-                  global sumText,prevHeadings,prevText,links,webs,webLinks
-                  sumText, jsonResults, prevHeadings, prevText,links,webs,webLinks= SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)          
+                  global sumText,prevHeadings,prevText,links,webs,webLinks,webContents
+                  sumText, jsonResults, prevHeadings, prevText,links,webs,webLinks,webContents= SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)          
 
                   
-          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks
+          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents
           )
 
 
@@ -63,7 +64,7 @@ def changeDate():
                   dateRange=request.form['start']+':'+request.form['end']
                   #print("Dates selected are " + dateRange)
 
-         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks
+         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents
           )
 
 
@@ -83,7 +84,7 @@ def changeFilters():
 
                 #print("Types" + str(typesToUse))
 
-        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks
+        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents
           )
         
 
