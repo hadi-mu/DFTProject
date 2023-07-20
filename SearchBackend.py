@@ -395,8 +395,8 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
                  else:
                      print("DOC REJECTED")
             else:
-                passCount+=1
                 if webFilters(docDataDict,start,end,types):
+                        passCount+=1
                         title,link,content=processWebDataDict(docDataDict)
                         titles.append(title)
                         links.append(link)
