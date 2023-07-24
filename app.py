@@ -1,7 +1,9 @@
 from flask import Flask,render_template,url_for,request,redirect
 import SearchBackend, consts
 import json
-
+import requests
+from bs4 import BeautifulSoup
+import numpy
 
 SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
 
@@ -27,6 +29,7 @@ links=[]
 webs=[" "]*3
 webLinks=[]
 webContents=[]
+webSumTex=''
 
 
 app=Flask(__name__)
@@ -43,11 +46,12 @@ def index():
                                     
                   #update global variables that contain content to be displayed on frontend - performing search and getting results
                   
-                  global sumText,prevHeadings,prevText,links,webs,webLinks,webContents
-                  sumText, jsonResults, prevHeadings, prevText,links,webs,webLinks,webContents= SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)          
-
+                  global sumText,prevHeadings,prevText,links,webs,webLinks,webContents,webSumTex
+                  sumText, jsonResults, prevHeadings, prevText,links,webs,webLinks,webContents,webSumTex= SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)          
+                  return redirect(url_for('index'))
+                  refresh()
                   
-          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents
+          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents,webSum=webSumTex
           )
 
 
@@ -64,7 +68,7 @@ def changeDate():
                   dateRange=request.form['start']+':'+request.form['end']
                   #print("Dates selected are " + dateRange)
 
-         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents
+         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents, webSum=webSumTex
           )
 
 
@@ -84,12 +88,15 @@ def changeFilters():
 
                 #print("Types" + str(typesToUse))
 
-        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents
+        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents, webSum=webSumTex
           )
         
 
 
-
+def refresh():
+         print("REFRESHING...")
+         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents, webSum=webSumTex
+          )   
 
 
 def searchQuery(query, searchType,startDate=None,endDate=None,sources=None,authors=None,types=None):

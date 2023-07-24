@@ -18,13 +18,16 @@ import json
 from blobtest import blob_metadata
 import vertexai
 from vertexai.language_models import TextGenerationModel
+import requests
+from bs4 import BeautifulSoup
 
-
+STORAGE_CLIENT = storage.Client()
+BUCKET = STORAGE_CLIENT.bucket(consts.BUCKET_NAME)
 
 vertexai.init(project="gen-ai-sandbox", location="us-central1")
 parameters = {
-    "temperature": 0,
-    "max_output_tokens": 768,
+    "temperature": 0.5,
+    "max_output_tokens": 1024,
     "top_p": 0.8,
     "top_k": 40
 }
@@ -111,6 +114,7 @@ def performSingleSearch(searchServiceClient, searchEngineID, searchQuery, filter
 
     # Search performed and raw search results returned
     response_pager = searchServiceClient.search(request)
+
 
     # Creating Search Response object for easier parsing - can extract more info from SearchResponse if required
     response = discoveryengine.SearchResponse(
@@ -247,10 +251,22 @@ def titleFromLink(link):
 
 def getTags(blob_name):
 
-    storage_client = storage.Client()
-    bucket = storage_client.bucket(consts.BUCKET_NAME)
-    blob = bucket.get_blob(blob_name)
+    """
+    Extracts metadata from a google bucket blob
+
+    Arguments:
+    blob_name-> Name of the blob
+
+    Returns:
+    types,source,date,author-> blob metadata tags
+    """
+
+    print("GETTING TAGS...")
+    blob = BUCKET.get_blob(blob_name)
+    print("GOT THE BLOB")
     metadata=blob.metadata
+    print("GOT THE METADATA")
+
     try:
 
         types=metadata["type"]
@@ -264,6 +280,19 @@ def getTags(blob_name):
 
 
 def checkDateInRange(date,start,end,web=False):
+    """
+    Checks if a date. Processes dates from web results and unstructured results differently.
+
+    Arguments:
+    date-> Date to check
+    start-> Start of range
+    end-> End of range
+    web-> Whether date is in web format or not
+
+    Returns:
+    True or false
+    """
+
     try:
 
         if web:
@@ -323,17 +352,22 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
 
 
     Returns: 
-    -summary -> str
-    -parsedResults -> str/JSON like
-    -titleArr -> arr containing document titles from results
-    -previewArr -> arr containing document content from results
-    -link -> arr containing document links 
+    -unstSummary -> Summary for unstructured search.
+    -unstParsedResults -> str/JSON like
+    -unstTitleArr -> Titles for all unstructured results
+    -unstPreviewArr -> arr containing document content from results
+    -unstLinkArr -> arr containing document links 
+    -webSum -> Summary for web search.
+    -webTitleArr -> Titles for all web results
+    -webConts -> arr containing individual webpage summaries
+    -webLinkArr -> arr containing web links 
+
 
 
     """
 
-    #print("SELECTED FILTERS: ",startDate,endDate,sources,authors,types)
     # create search client
+    print("SEARCH SUBMITTED")
     client = discoveryengine.SearchServiceClient()
 
     # authorFilter
@@ -344,15 +378,17 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     webResponse = performSingleSearch(
             client, consts.WEB_DATASTORE, query, filter)
     webParsedResults = parseWebResults(webResponse)
-    
     unstResponse = performSingleSearch(
-            client, consts.UNSTRUCT_DATASTORE, query, filter)
+            client, consts.UNSTRUCT_DATASTORE, query,filter)
     unstSummary, unstParsedResults = parseUnstructuredResults(unstResponse)
-    unstSummary=model.predict('Please reword the following text: '+unstSummary).text
 
+    print("RESULTS RECIEVED")
+    unstSummary=model.predict('Reword the following text to sound better, put it into one paragraph: '+unstSummary).text
+    
     unstTitleArr,unstLinkArr,unstPreviewArr=extractFromJSON(unstParsedResults,True,startDate,endDate,sources,authors,types)            
     webTitleArr,webLinkArr,webConts=extractFromJSON(webParsedResults,False,startDate,endDate,sources,authors,types)            
-
+    
+    webSum=webSummary(webTitleArr,webLinkArr)
 
 
 
@@ -366,7 +402,7 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     # return all parsed and filtered results in desired format
     #print("DONE PROCESSING")
 
-    return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr,webConts
+    return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr,webConts, webSum
 
 
 
@@ -375,6 +411,18 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
 
 
 def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
+
+    """
+    Extracts information including titles,links and contents from search result json file.
+
+    Arguments:
+    -jsonFile-> results json file
+    -unstructured-> whether search was unstructured or not
+    -start,end,sources,authors,types-> filters
+
+    Returns:
+    -titles,links,contents-> Titles, urls and previews for all results
+    """
     titles=[]
     links=[]
     contents=[] 
@@ -382,6 +430,7 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
     resultsArr=parsedDict["results"]
     passCount=0
     for result in resultsArr:
+
         if passCount<3:
             documentDict=result["document"]
             docDataDict=documentDict["derivedStructData"]
@@ -404,35 +453,23 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
                         print("SITE ACCEPTED")
                 else:
                     print("SITE REJECTED")
-                """
-                try:
-                    if webFilters(docDataDict,start,end,types):
-                        title,link,content=processWebDataDict(docDataDict)
-                        titles.append(title)
-                        links.append(link)
-                        contents.append(content)
-                        print("SITE ACCEPTED")
-                except Exception as e:
-                    print("ERROR: ",e)
-                    title,link,content=processWebDataDict(docDataDict)
-                    titles.append(title)
-                    links.append(link)
-                    contents.append(content)
-                    print("SITE ACCEPTED")
-                """
                 
     return titles,links,contents
 
 
 def processUnstructuredDocDict(dataDict,startDate="", endDate="", sources="", authors="", types=""):
+
+    print("PROCESSING UNSTRUCTURED...")
     append=True
     docDataArr=dataDict["extractive_answers"]
     docData=docDataArr[0]
     docContent=docData["content"]
     docLink=dataDict["link"]
+    print("PROCESSED, NOW GETTING LINK")
     title=titleFromLink(docLink)
     docLink=parseLink(docLink)
     docTypes,source,date,author=getTags(title)
+    print("DONE GETTING LINK")
     if types!=[]:
                 if not(docTypes in types):
                     append=False
@@ -452,7 +489,8 @@ def processUnstructuredDocDict(dataDict,startDate="", endDate="", sources="", au
 
     if append:
         print("DOC ACCEPTED")
-        return True,title,docLink,docContent
+
+        return True,title,docLink,model.predict('Provide a brief summary for the following text:' + docContent ).text
     else:
         return False,[],[],[]
     
@@ -480,3 +518,34 @@ def webFilters(dataDict,startDate,endDate,type):
     except:
         print("ERROR FILTERING WEBPAGE")
         return True
+    
+def webSummary(titles,links):
+    joined=''
+    for i in range(len(links)):
+        content=getPageContent(links[i])
+        initial="Provide a brief summary for the following article:" + content +'.'
+        summ=model.predict(initial).text
+        joined+=summ + ', '
+    final = model.predict("Provide a brief summary for the following article: " + joined + '.').text
+
+    return final
+
+
+def getPageContent(url):
+
+    page=requests.get(url).text
+
+    soup=BeautifulSoup(page)
+
+    # Get text from all <p> tags.
+    p_tags = soup.find_all(['p','ul','li'])
+    
+    # Get the text from each of the "p" tags and strip surrounding whitespace.
+    p_tags_text = [tag.get_text().strip() for tag in p_tags]
+    # Filter out sentences that contain newline characters '\n' or don't contain periods.
+    sentence_list = [sentence for sentence in p_tags_text if not '\n' in sentence]
+
+    article = ' '.join(sentence_list)
+
+    return article
+

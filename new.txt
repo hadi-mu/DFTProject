@@ -1,0 +1,1637 @@
+{
+  "results": [
+    {
+      "id": "0",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/0",
+        "id": "0",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 19, 2022 <b>...</b> government unveils plan to rollout <b>self</b>-<b>driving vehicles</b> on UK roads, sparking a transport revolution to improve road safety and better connect&nbsp;...",
+              "snippet": "Aug 19, 2022 ... government unveils plan to rollout self-driving vehicles on UK roads, sparking a transport revolution to improve road safety and better connect\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../self-driving-revolution-to-boost-economy-and- improve-road-safety",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/self-driving-revolution-to-boost-economy-and-improve-road-safety",
+          "title": "Self-driving revolution to boost economy and improve road safety ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrzUyJy1M8c7yQVpcqREbtqbUETHp4kDNOSkiXwmuegKU81esU1vAhjbk8",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "Graphic showing self-driving car and other vehicles from above approaching zebra crossing.",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/159843/s960_ccav.png",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:title": "Self-driving revolution to boost economy and improve road safety",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><D1198><OT1223><OT1280>",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/news/self-driving-revolution-to-boost-economy-and-improve-road-safety",
+                "og:image:alt": "Graphic showing self-driving car and other vehicles from above approaching zebra crossing.",
+                "twitter:card": "summary_large_image",
+                "og:description": "New plan for self-driving vehicles plus a consultation on a safety ambition.",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2022-08-18T23:15:11.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/159843/s960_ccav.png",
+                "govuk:content-id": "cebc7bdd-cbd0-4b17-9208-f83b99b8781d",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-05-30T06:13:17.408Z",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:public-updated-at": "2022-08-18T23:15:11.000Z",
+                "govuk:primary-publishing-organisation": "Department for Transport"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/159843/s960_ccav.png"
+              }
+            ]
+          },
+          "htmlTitle": "<b>Self</b>-<b>driving</b> revolution to boost economy and improve road safety ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../<b>self-driving</b>-revolution-to-boost-economy-and- improve-road-safety"
+        }
+      }
+    },
+    {
+      "id": "1",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/1",
+        "id": "1",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 19, 2022 <b>...</b> This document describes the government&#39;s approach to supporting the safe deployment of <b>self</b>-<b>driving vehicles</b> to deliver societal and&nbsp;...",
+              "snippet": "Aug 19, 2022 ... This document describes the government's approach to supporting the safe deployment of self-driving vehicles to deliver societal and\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../connected-and-automated-mobility-2025-realising-the -benefits-of-self-driving-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/connected-and-automated-mobility-2025-realising-the-benefits-of-self-driving-vehicles",
+          "title": "Connected and automated mobility 2025: realising the benefits of ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "140",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTsG8_AE7Joul6ubOO56K0yASaArftKGFeur3mdf4Mv2qRb6MEl3rrcqCM",
+                "width": "105"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:content-has-history": "true",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-08-19T10:00:06.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:description": "The government\u2019s plans for connected and automated mobility technologies.",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "policy_paper",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "598bf15e-178a-4f3e-9e4e-99daffe5c477",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:title": "Connected and automated mobility 2025: realising the benefits of self-driving vehicles",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<OT1223>",
+                "govuk:primary-publishing-organisation": "Centre for Connected and Autonomous Vehicles",
+                "govuk:public-updated-at": "2022-08-19T10:00:06.000Z",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:url": "https://www.gov.uk/government/publications/connected-and-automated-mobility-2025-realising-the-benefits-of-self-driving-vehicles",
+                "twitter:card": "summary",
+                "govuk:updated-at": "2023-04-19T13:08:14.526Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1099173/thumbnail_cam-2025-realising-benefits-self-driving-vehicles.pdf.png"
+              }
+            ]
+          },
+          "htmlTitle": "Connected and <b>automated</b> mobility 2025: realising the benefits of ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../connected-and-automated-mobility-2025-realising-the -benefits-of-<b>self-driving</b>-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/2",
+        "id": "2",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 19, 2022 <b>...</b> Seeks views on our proposed safety ambition for <b>self</b>-<b>driving vehicles</b> to form the foundation of a new <b>self</b>-<b>driving vehicle</b> safety framework.",
+              "snippet": "Aug 19, 2022 ... Seeks views on our proposed safety ambition for self-driving vehicles to form the foundation of a new self-driving vehicle safety framework."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/government/.../self-driving-vehicles-new-safety-ambition",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/consultations/self-driving-vehicles-new-safety-ambition",
+          "title": "Self-driving vehicles: new safety ambition - GOV.UK",
+          "pagemap": {
+            "metatags": [
+              {
+                "og:description": "Seeks views on our proposed safety ambition for self-driving vehicles to form the foundation of a new self-driving vehicle safety framework.",
+                "govuk:content-has-history": "true",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-08-19T10:00:06.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:type": "article",
+                "govuk:themes": "transport",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "closed_consultation",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "consultation",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "3f7418d5-d306-4564-8b6f-d596305a7622",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/consultations/self-driving-vehicles-new-safety-ambition",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<OT1223>",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "govuk:public-updated-at": "2022-08-19T10:00:06.000Z",
+                "govuk:primary-publishing-organisation": "Centre for Connected and Autonomous Vehicles",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:title": "Self-driving vehicles: new safety ambition",
+                "twitter:card": "summary",
+                "govuk:updated-at": "2023-04-19T13:08:13.792Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png"
+              }
+            ]
+          },
+          "htmlTitle": "<b>Self</b>-<b>driving vehicles</b>: new safety ambition - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/government/.../<b>self-driving</b>-<b>vehicles</b>-new-safety-ambition"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/3",
+        "id": "3",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 20, 2022 <b>...</b> Changes to The Highway Code will help ensure the first wave of <b>self</b>-<b>driving vehicles</b> are used safely on UK roads.",
+              "snippet": "Apr 20, 2022 ... Changes to The Highway Code will help ensure the first wave of self-driving vehicles are used safely on UK roads."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../britain-moves-closer-to-a-self-driving-revolution",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/britain-moves-closer-to-a-self-driving-revolution",
+          "title": "Britain moves closer to a self-driving revolution - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhL5OeigmFhVFHvbEzHceaAAmyO1Oc6f43oJTsif7hNyol4-5Ig3XGqP3h",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/147940/s960_960-autonomous-vehicles.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "road-safety-driving-rules-and-penalties",
+                "og:title": "Britain moves closer to a self-driving revolution",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223>",
+                "govuk:taxon-slugs": "road-safety-driving-rules-and-penalties,self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/news/britain-moves-closer-to-a-self-driving-revolution",
+                "twitter:card": "summary_large_image",
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "og:description": "Changes to The Highway Code will help ensure the first wave of self-driving vehicles are used safely on UK roads.",
+                "govuk:first-published-at": "2022-04-19T23:15:05.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "3b1f1d58-dcd5-4d7e-adb6-fcc4c56324d0,c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "eea0a9ba-b031-4b3e-a551-cb0a228e2733",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/147940/s960_960-autonomous-vehicles.jpg",
+                "govuk:updated-at": "2023-05-30T06:13:46.665Z",
+                "govuk:taxon-id": "3b1f1d58-dcd5-4d7e-adb6-fcc4c56324d0",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:public-updated-at": "2022-04-19T23:15:05.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/147940/s960_960-autonomous-vehicles.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Britain moves closer to a <b>self</b>-<b>driving</b> revolution - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../britain-moves-closer-to-a-<b>self-driving</b>-revolution"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/4",
+        "id": "4",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Jan 13, 2021 <b>...</b> report predicts connected and <b>automated vehicles</b> (CAV) to be worth \u00a341.7 billion by 2035; investment in this area could create nearly 40,000&nbsp;...",
+              "snippet": "Jan 13, 2021 ... report predicts connected and automated vehicles (CAV) to be worth \u00a341.7 billion by 2035; investment in this area could create nearly 40,000\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../uk-on-the-cusp-of-a-transport-revolution-as-self- driving-vehicles-set-to-be-worth-nearly-42-billion-by-2035",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/uk-on-the-cusp-of-a-transport-revolution-as-self-driving-vehicles-set-to-be-worth-nearly-42-billion-by-2035",
+          "title": "UK on the cusp of a transport revolution, as self-driving vehicles set ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQX5a0IyNIJ3zSKqQ5VcsV4pifvAgyutNQ3I21XfnsUbFJMjh4B4f774d4",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/112369/s960_960-autonomous-vehicles.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "low-emission-and-electric-vehicles",
+                "og:title": "UK on the cusp of a transport revolution, as self-driving vehicles set to be worth nearly \u00a342 billion by 2035",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223>",
+                "govuk:taxon-slugs": "low-emission-and-electric-vehicles,self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/news/uk-on-the-cusp-of-a-transport-revolution-as-self-driving-vehicles-set-to-be-worth-nearly-42-billion-by-2035",
+                "twitter:card": "summary_large_image",
+                "og:description": "Report revealing the full economic value of self-driving vehicles in the UK released.",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2021-01-13T12:09:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "906b4bbc-e7e4-416c-bd42-a50b7d5f9574,c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "ff7606a9-dd7d-4b92-87d5-95f57f8f9184",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/112369/s960_960-autonomous-vehicles.jpg",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-05-30T06:14:02.459Z",
+                "govuk:taxon-id": "906b4bbc-e7e4-416c-bd42-a50b7d5f9574",
+                "govuk:public-updated-at": "2021-01-13T12:09:00.000Z",
+                "govuk:primary-publishing-organisation": "Department for Transport"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/112369/s960_960-autonomous-vehicles.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "UK on the cusp of a transport revolution, as <b>self</b>-<b>driving vehicles</b> set ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../uk-on-the-cusp-of-a-transport-revolution-as-<b>self- driving</b>-<b>vehicles</b>-set-to-be-worth-nearly-42-billion-by-2035"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/5",
+        "id": "5",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 19, 2022 <b>...</b> <b>Self</b>-<b>driving vehicles</b> have the potential to radically transform the ... that this is already <b>happening</b> in both public and private places.",
+              "snippet": "Aug 19, 2022 ... Self-driving vehicles have the potential to radically transform the ... that this is already happening in both public and private places."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...self-driving-vehicles/responsible-innovation-in-self- driving-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/responsible-innovation-in-self-driving-vehicles/responsible-innovation-in-self-driving-vehicles",
+          "title": "Responsible Innovation in Self-Driving Vehicles - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.7.0",
+                "govuk:first-published-at": "2022-08-19T08:34:08.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "47f8b629-cd62-4f7d-b33b-20441f03eddb",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-02-10T16:43:59.063Z",
+                "og:url": "https://www.gov.uk/government/publications/responsible-innovation-in-self-driving-vehicles/responsible-innovation-in-self-driving-vehicles",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<OT1280>",
+                "govuk:public-updated-at": "2022-08-22T10:55:38.000Z",
+                "govuk:primary-publishing-organisation": "Centre for Data Ethics and Innovation",
+                "og:title": "Responsible Innovation in Self-Driving Vehicles",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Responsible Innovation in <b>Self</b>-<b>Driving Vehicles</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>self-driving</b>-<b>vehicles</b>/responsible-innovation-in-<b>self- driving</b>-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/6",
+        "id": "6",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Sep 4, 2019 <b>...</b> Future of Transport Minister opens new test facility for <b>self</b>-<b>driving vehicles</b>, 5G telecommunications and cyber security developers &middot; government&nbsp;...",
+              "snippet": "Sep 4, 2019 ... Future of Transport Minister opens new test facility for self-driving vehicles, 5G telecommunications and cyber security developers \u00b7 government\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../new-system-to-ensure-safety-of-self-driving-vehicles- ahead-of-their-sale",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/new-system-to-ensure-safety-of-self-driving-vehicles-ahead-of-their-sale",
+          "title": "New system to ensure safety of self-driving vehicles ahead of their ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjvJMoZm_7m115ZktHF1lhAQnywIyHdAWEfaQ1GKQykfDmUfRzXLgtnilS",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "Interior view of prototype self-driving car, showing dashboard systems",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/91368/s960_prototype_self_driving_car.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:title": "New system to ensure safety of self-driving vehicles ahead of their sale",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223>",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/news/new-system-to-ensure-safety-of-self-driving-vehicles-ahead-of-their-sale",
+                "og:image:alt": "Interior view of prototype self-driving car, showing dashboard systems",
+                "twitter:card": "summary_large_image",
+                "og:description": "Pioneering new safety regime for self-driving vehicles",
+                "govuk:components_gem_version": "35.11.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2019-09-04T09:26:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "49e9cd28-b6c2-4943-8fe0-8e88446198a6",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/91368/s960_prototype_self_driving_car.jpg",
+                "govuk:updated-at": "2023-07-17T14:53:12.491Z",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:public-updated-at": "2019-09-04T09:26:00.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/91368/s960_prototype_self_driving_car.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "New system to ensure safety of <b>self</b>-<b>driving vehicles</b> ahead of their ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../new-system-to-ensure-safety-of-<b>self-driving</b>-<b>vehicles</b>- ahead-of-their-sale"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/7",
+        "id": "7",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Aug 19, 2022 <b>...</b> The CDEI has published a report that sets out proposals for a trustworthy approach to the regulation and governance of <b>self</b>-<b>driving</b>&nbsp;...",
+              "snippet": "Aug 19, 2022 ... The CDEI has published a report that sets out proposals for a trustworthy approach to the regulation and governance of self-driving\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../responsible-innovation-in-self-driving-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/responsible-innovation-in-self-driving-vehicles",
+          "title": "Responsible Innovation in Self-Driving Vehicles - GOV.UK",
+          "pagemap": {
+            "metatags": [
+              {
+                "og:description": "The CDEI has published a report that sets out proposals for a trustworthy approach to the regulation and governance of self-driving vehicles.",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:content-has-history": "true",
+                "govuk:first-published-at": "2022-08-19T08:34:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "e48ab80a-de80-4e83-bf59-26316856a5f9",
+                "og:type": "article",
+                "govuk:themes": "government/all",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "policy_paper",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "3a2fe8b3-4584-4bbd-9276-897e8904f328",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-07-17T15:30:56.026Z",
+                "og:title": "Responsible Innovation in Self-Driving Vehicles",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<OT1280>",
+                "govuk:primary-publishing-organisation": "Centre for Data Ethics and Innovation",
+                "govuk:public-updated-at": "2022-08-19T08:34:00.000Z",
+                "govuk:taxon-slugs": "all",
+                "govuk:taxon-id": "e48ab80a-de80-4e83-bf59-26316856a5f9",
+                "og:url": "https://www.gov.uk/government/publications/responsible-innovation-in-self-driving-vehicles",
+                "twitter:card": "summary",
+                "govuk:taxon-slug": "all"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png"
+              }
+            ]
+          },
+          "htmlTitle": "Responsible Innovation in <b>Self</b>-<b>Driving Vehicles</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../responsible-innovation-in-<b>self-driving</b>-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/8",
+        "id": "8",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Feb 6, 2019 <b>...</b> government strengthens guidelines on trial safety and transparency &middot; UK seeks to cement position as a world leader in <b>automated vehicle</b> trials&nbsp;...",
+              "snippet": "Feb 6, 2019 ... government strengthens guidelines on trial safety and transparency \u00b7 UK seeks to cement position as a world leader in automated vehicle trials\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../government-moves-forward-on-advanced-trials-for- self-driving-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/government-moves-forward-on-advanced-trials-for-self-driving-vehicles",
+          "title": "Government moves forward on advanced trials for self-driving vehicles",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQhHFSuc24sak1fJ-VK_pepY7VUOTWtRbdOuW0hvlgy666F41Q_witVn4hP",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "Autonomous vehicle",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/83786/s960_960-autonomous-vehicles.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "making-roads-safer",
+                "og:url": "https://www.gov.uk/government/news/government-moves-forward-on-advanced-trials-for-self-driving-vehicles",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223><D1198>",
+                "govuk:taxon-slugs": "making-roads-safer,self-driving-vehicles",
+                "og:title": "Government moves forward on advanced trials for self-driving vehicles",
+                "og:image:alt": "Autonomous vehicle",
+                "twitter:card": "summary_large_image",
+                "og:description": "A process is being developed to support advanced trials of automated vehicles.",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2019-02-06T00:15:01.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "999f9fbe-3c21-4c53-8801-2c20bb130d28,c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "04c62233-f121-4f44-bd86-1b4ffb770c08",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/83786/s960_960-autonomous-vehicles.jpg",
+                "govuk:updated-at": "2023-06-28T09:31:00.625Z",
+                "govuk:taxon-id": "999f9fbe-3c21-4c53-8801-2c20bb130d28",
+                "govuk:public-updated-at": "2019-02-06T00:15:01.000Z",
+                "govuk:primary-publishing-organisation": "Department for Transport"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/83786/s960_960-autonomous-vehicles.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Government moves forward on advanced trials for <b>self</b>-<b>driving vehicles</b>",
+          "htmlFormattedUrl": "https://www.gov.uk/.../government-moves-forward-on-advanced-trials-for- <b>self-driving</b>-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/9",
+        "id": "9",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Automated Lane Keeping System technology outcome means <b>self</b>-<b>driving vehicles</b> could be used on British roads. View of a road through a <b>car</b> windscreen. UK on the&nbsp;...",
+              "snippet": "Automated Lane Keeping System technology outcome means self-driving vehicles could be used on British roads. View of a road through a car windscreen. UK on the\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../centre-for-connected-and-autonomous-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/organisations/centre-for-connected-and-autonomous-vehicles",
+          "title": "Centre for Connected and Autonomous Vehicles - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTeAI3WGV0e5daW6UxmQAJTqmg2Igs2rHChYoQ0Y5mwpdOJrfS7HtsiPwi",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "og:description": "CCAV is part of the Department for Transport and the Department for Business and Trade .",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2017-08-07T09:51:35.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "collections",
+                "govuk:format": "organisation",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "organisation",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "e00316af-9d5b-4223-8097-8851b5ddeb81",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-07-12T11:00:01.671Z",
+                "og:title": "Centre for Connected and Autonomous Vehicles",
+                "govuk:rendering-application": "collections",
+                "govuk:analytics:organisations": "<OT1223>",
+                "govuk:public-updated-at": "2023-04-19T13:08:13.000Z",
+                "govuk:primary-publishing-organisation": "Centre for Connected and Autonomous Vehicles",
+                "og:url": "https://www.gov.uk/government/organisations/centre-for-connected-and-autonomous-vehicles",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/feature/image/91862/s465_ccav-graphic.png"
+              }
+            ]
+          },
+          "htmlTitle": "Centre for Connected and <b>Autonomous Vehicles</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../centre-for-connected-and-autonomous-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "10",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/10",
+        "id": "10",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Dec 19, 2018 <b>...</b> <b>car</b> industry leaders help develop guidance on cyber security &middot; new guidance to help protect <b>self</b>-<b>driving cars</b> from hacking &middot; UK blazing the way by&nbsp;...",
+              "snippet": "Dec 19, 2018 ... car industry leaders help develop guidance on cyber security \u00b7 new guidance to help protect self-driving cars from hacking \u00b7 UK blazing the way by\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../new-cyber-security-standard-for-self-driving-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/new-cyber-security-standard-for-self-driving-vehicles",
+          "title": "New cyber security standard for self-driving vehicles - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDWrm3g46Dh0608O7WMNaWxC-_IICFRStGnFlrbf6GNZg3w_E3zEU66D5d",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "Conceptual illustration of digital connectivity in a road car.",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/82762/s960_connected-car.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:title": "New cyber security standard for self-driving vehicles",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223>",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/news/new-cyber-security-standard-for-self-driving-vehicles",
+                "og:image:alt": "Conceptual illustration of digital connectivity in a road car.",
+                "twitter:card": "summary_large_image",
+                "og:description": "New cyber security standard for developing self-driving car technology released.",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2018-12-19T11:28:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/82762/s960_connected-car.jpg",
+                "govuk:content-id": "0a43837a-4bf1-43b0-bec0-6559e8915df2",
+                "theme-color": "#0b0c0c",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-07-17T14:51:27.368Z",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:public-updated-at": "2018-12-19T11:28:00.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/82762/s960_connected-car.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "New cyber security standard for <b>self</b>-<b>driving vehicles</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../new-cyber-security-standard-for-<b>self-driving</b>-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "11",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/11",
+        "id": "11",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 28, 2021 <b>...</b> Automated Lane Keeping System technology outcome means <b>self</b>-<b>driving vehicles</b> could be used on British roads.",
+              "snippet": "Apr 28, 2021 ... Automated Lane Keeping System technology outcome means self-driving vehicles could be used on British roads."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../government-paves-the-way-for-self-driving-vehicles- on-uk-roads",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/government-paves-the-way-for-self-driving-vehicles-on-uk-roads",
+          "title": "Government paves the way for self-driving vehicles on UK roads ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR9P19G-eciUxLKVVWYC75bgVaDWe-DIA7Kk4nH-ra7EOCWoox7t3pOZQak",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "View of a road through a car windscreen.",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/119785/s960_960-alks2.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/news/government-paves-the-way-for-self-driving-vehicles-on-uk-roads",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223>",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "og:title": "Government paves the way for self-driving vehicles on UK roads",
+                "og:image:alt": "View of a road through a car windscreen.",
+                "twitter:card": "summary_large_image",
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "og:description": "Automated Lane Keeping System technology outcome means self-driving vehicles could be used on British roads.",
+                "govuk:first-published-at": "2021-04-27T23:15:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "4eacafbd-27c3-40ef-891f-3924f2b2bfa5",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/119785/s960_960-alks2.jpg",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-05-30T06:08:46.465Z",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:public-updated-at": "2021-04-27T23:15:00.000Z",
+                "govuk:primary-publishing-organisation": "Department for Transport"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/119785/s960_960-alks2.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Government paves the way for <b>self</b>-<b>driving vehicles</b> on UK roads ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../government-paves-the-way-for-<b>self-driving</b>-<b>vehicles</b>- on-uk-roads"
+        }
+      }
+    },
+    {
+      "id": "12",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/12",
+        "id": "12",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Jul 13, 2023 <b>...</b> How people view <b>self</b>-<b>driving vehicles</b> and how to effectively communicate safety information about them.",
+              "snippet": "Jul 13, 2023 ... How people view self-driving vehicles and how to effectively communicate safety information about them."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../self-driving-vehicles-public-perceptions-and-effective- communication",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/self-driving-vehicles-public-perceptions-and-effective-communication",
+          "title": "Self-driving vehicles: public perceptions and effective ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "140",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVR5BsK-Ujipw4MveP9riRsxuNk1EQY3_WsrcG0Os33l9dlJjGLnbRTtg",
+                "width": "105"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:content-has-history": "true",
+                "govuk:first-published-at": "2023-07-13T08:30:12.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:description": "How people view self-driving vehicles and how to effectively communicate safety information about them.",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "research",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "f746f1b8-acf5-419c-a590-c3a1a1c6161a",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:publishing-app": "whitehall",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:url": "https://www.gov.uk/government/publications/self-driving-vehicles-public-perceptions-and-effective-communication",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223>",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "govuk:public-updated-at": "2023-07-13T08:30:12.000Z",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:title": "Self-driving vehicles: public perceptions and effective communication",
+                "twitter:card": "summary",
+                "govuk:updated-at": "2023-07-13T08:30:13.802Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1166512/thumbnail_great-self-driving-exploration-citizen-view-of-self-driving-technology.pdf.png"
+              }
+            ]
+          },
+          "htmlTitle": "<b>Self</b>-<b>driving vehicles</b>: public perceptions and effective ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../<b>self-driving</b>-<b>vehicles</b>-public-perceptions-and-effective- communication"
+        }
+      }
+    },
+    {
+      "id": "13",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/13",
+        "id": "13",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Feb 1, 2023 <b>...</b> The grants, part of the Centre for Connected and <b>Autonomous Vehicles</b> Connected and <b>Automated</b> Mobility programme, will help British companies&nbsp;...",
+              "snippet": "Feb 1, 2023 ... The grants, part of the Centre for Connected and Autonomous Vehicles Connected and Automated Mobility programme, will help British companies\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../uk-government-backing-helps-launch-world-first-self- driving-bus",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/uk-government-backing-helps-launch-world-first-self-driving-bus",
+          "title": "UK government backing helps launch world first self-driving bus ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSCP5mXY49Et8FFXuxAkedhJykhCIMf4qMxPZYfVVa0SUNsC_RBHgExRzO9",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "\u00a381m awarded to 7 projects to accelerate self-driving vehicle innovation",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/174730/s960_320131-ccav-govuk.png",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "press_release",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "buses",
+                "og:title": "UK government backing helps launch world first self-driving bus",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D1198><D9><D1381><PB1078><OT1223>",
+                "govuk:taxon-slugs": "buses,research-and-development,road-haulage,road-infrastructure,self-driving-vehicles,trade-and-investment",
+                "og:url": "https://www.gov.uk/government/news/uk-government-backing-helps-launch-world-first-self-driving-bus",
+                "og:image:alt": "\u00a381m awarded to 7 projects to accelerate self-driving vehicle innovation",
+                "twitter:card": "summary_large_image",
+                "og:description": "Passengers will be boarding the world\u2019s first fully sized, self-driving bus service in Edinburgh from the Spring, after it was awarded a share of \u00a381 million in joint UK government and industry support for self-driving transport technology.",
+                "govuk:components_gem_version": "35.7.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2023-02-01T00:15:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "5c76ad4e-4b4d-4f72-a6ef-b277b31b98a1,1a045007-0eaf-4429-8240-ec034ee6e9d8,2f9dba8b-83a2-4d99-b61b-a8738fa4e855,95202728-fb55-4aac-a53e-6a8f1553348a,c1306fc1-117b-477b-acd4-20f3dcf98534,ed2ca1f7-5463-4eda-9324-b597e269e242",
+                "govuk:themes": "business-and-industry, transport",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "790e83c3-8a8f-4027-ac88-901f6415c3f3",
+                "theme-color": "#0b0c0c",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/174730/s960_320131-ccav-govuk.png",
+                "govuk:updated-at": "2023-07-03T14:13:11.194Z",
+                "govuk:taxon-id": "5c76ad4e-4b4d-4f72-a6ef-b277b31b98a1",
+                "govuk:primary-publishing-organisation": "Department for Business, Energy & Industrial Strategy",
+                "govuk:public-updated-at": "2023-02-01T00:15:00.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/174730/s960_320131-ccav-govuk.png"
+              }
+            ]
+          },
+          "htmlTitle": "UK government backing helps launch world first <b>self</b>-<b>driving</b> bus ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../uk-government-backing-helps-launch-world-first-<b>self- driving</b>-bus"
+        }
+      }
+    },
+    {
+      "id": "14",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/14",
+        "id": "14",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Mar 6, 2018 <b>...</b> ... review of driving laws to ensure the UK remains one of the best places in the world to develop, test and drive <b>self</b>-<b>driving vehicles</b>.",
+              "snippet": "Mar 6, 2018 ... ... review of driving laws to ensure the UK remains one of the best places in the world to develop, test and drive self-driving vehicles."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../government-to-review-driving-laws-in-preparation-for -self-driving-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/government-to-review-driving-laws-in-preparation-for-self-driving-vehicles",
+          "title": "Government to review driving laws in preparation for self-driving ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ1xtlCJCYv_bFzADxebx6XC8QRWnCmx89qBpY_SZVPYL5fNTdSMH8ZL1s",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "GATEway shuttle.",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/72313/s960_shuttle.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "driving-and-road-transport",
+                "og:title": "Government to review driving laws in preparation for self-driving vehicles",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9><OT1223><D1198><PB294>",
+                "govuk:taxon-slugs": "driving-and-road-transport",
+                "og:url": "https://www.gov.uk/government/news/government-to-review-driving-laws-in-preparation-for-self-driving-vehicles",
+                "og:image:alt": "GATEway shuttle.",
+                "twitter:card": "summary_large_image",
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "og:description": "Three year regulatory review to pave the way for self-driving vehicles.",
+                "govuk:first-published-at": "2018-03-06T10:08:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "84a394d2-b388-4e4e-904e-136ca3f5dd7d",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "6247a932-7c45-4f0a-9212-a03070eb50f3",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/72313/s960_shuttle.jpg",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-05-30T06:11:35.823Z",
+                "govuk:taxon-id": "84a394d2-b388-4e4e-904e-136ca3f5dd7d",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:public-updated-at": "2018-03-06T10:08:00.000Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/72313/s960_shuttle.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Government to review driving laws in preparation for <b>self</b>-<b>driving</b> ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../government-to-review-driving-laws-in-preparation-for -<b>self-driving</b>-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "15",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/15",
+        "id": "15",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 25, 2022 <b>...</b> <b>Automated vehicle</b> technology is set to play a major role in the transport revolution <b>happening</b> across the UK. It will help to improve&nbsp;...",
+              "snippet": "Apr 25, 2022 ... Automated vehicle technology is set to play a major role in the transport revolution happening across the UK. It will help to improve\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...vehicles.../rules-on-the-safe-use-of-automated-vehicles- summary-of-responses-and-government-response",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av/outcome/rules-on-the-safe-use-of-automated-vehicles-summary-of-responses-and-government-response",
+          "title": "Rules on the safe use of automated vehicles: summary of responses ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-04-19T23:15:06.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "html_publication",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "html_publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "a5fef8b9-9c4d-45f8-aca4-c6fa3daab864",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-05-30T06:12:39.227Z",
+                "og:url": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av/outcome/rules-on-the-safe-use-of-automated-vehicles-summary-of-responses-and-government-response",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9>",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:public-updated-at": "2022-11-10T14:52:58.000Z",
+                "og:title": "Rules on the safe use of automated vehicles: summary of responses and government response",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Rules on the safe use of <b>automated vehicles</b>: summary of responses ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>vehicles</b>.../rules-on-the-safe-use-of-automated-<b>vehicles</b>- summary-of-responses-and-government-response"
+        }
+      }
+    },
+    {
+      "id": "16",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/16",
+        "id": "16",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 25, 2022 <b>...</b> New zero-emission <b>self</b>-<b>driving</b> bus, taxi and delivery services could make ... role in the transport revolution <b>happening</b> today across the UK&nbsp;...",
+              "snippet": "Apr 25, 2022 ... New zero-emission self-driving bus, taxi and delivery services could make ... role in the transport revolution happening today across the UK\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...vehicles.../rules-on-safe-use-of-automated-vehicles-on- gb-roads",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av/rules-on-safe-use-of-automated-vehicles-on-gb-roads",
+          "title": "Rules on safe use of automated vehicles on GB roads - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.11.0",
+                "govuk:first-published-at": "2021-04-27T23:00:09.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "e3327853-1192-452f-8dfe-d3a956afd3a6",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-07-17T15:04:48.004Z",
+                "og:title": "Rules on safe use of automated vehicles on GB roads",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9>",
+                "govuk:public-updated-at": "2022-11-10T14:52:57.000Z",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "og:url": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av/rules-on-safe-use-of-automated-vehicles-on-gb-roads",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Rules on safe use of <b>automated vehicles</b> on GB roads - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>vehicles</b>.../rules-on-safe-use-of-automated-<b>vehicles</b>-on- gb-roads"
+        }
+      }
+    },
+    {
+      "id": "17",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/17",
+        "id": "17",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "May 23, 2022 <b>...</b> A new \u00a340 million competition to kick-start commercial <b>self</b>-<b>driving</b> services, such as delivery <b>vehicles</b> and passenger shuttles,&nbsp;...",
+              "snippet": "May 23, 2022 ... A new \u00a340 million competition to kick-start commercial self-driving services, such as delivery vehicles and passenger shuttles,\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../self-driving-buses-shuttles-and-delivery-vans-could- soon-hit-uk-roads-thanks-to-40-million-government-funded-competition",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/self-driving-buses-shuttles-and-delivery-vans-could-soon-hit-uk-roads-thanks-to-40-million-government-funded-competition",
+          "title": "Self-driving buses, shuttles and delivery vans could soon hit UK ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcRH8m7nzj-60AXxgWMOLeYAIBMOws3Y4fYxlzve6YIfFHFf4Orndl_Q4",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "Self-driving commercial vehicles by 2025",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/151230/s960_MicrosoftTeams-image__2_.png",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "press_release",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "science-and-innovation",
+                "og:url": "https://www.gov.uk/government/news/self-driving-buses-shuttles-and-delivery-vans-could-soon-hit-uk-roads-thanks-to-40-million-government-funded-competition",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D1198><D9><OT1223>",
+                "govuk:taxon-slugs": "science-and-innovation,self-driving-vehicles",
+                "og:title": "Self-driving buses, shuttles and delivery vans could soon hit UK roads thanks to \u00a340 million government-funded competition",
+                "og:image:alt": "Self-driving commercial vehicles by 2025",
+                "twitter:card": "summary_large_image",
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "og:description": "A new \u00a340 million competition to kick-start commercial self-driving services, such as delivery vehicles and passenger shuttles, has been launched today.",
+                "govuk:first-published-at": "2022-05-22T23:15:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "ccb77bcc-56b4-419a-b5ce-f7c2234e0546,c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "business-and-industry, transport",
+                "govuk:rendering-app": "government-frontend",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/151230/s960_MicrosoftTeams-image__2_.png",
+                "govuk:content-id": "999494da-6ed0-4738-9e73-20a28b634deb",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-06-20T11:04:26.992Z",
+                "govuk:taxon-id": "ccb77bcc-56b4-419a-b5ce-f7c2234e0546",
+                "govuk:public-updated-at": "2022-05-22T23:15:00.000Z",
+                "govuk:primary-publishing-organisation": "Department for Business, Energy & Industrial Strategy"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/151230/s960_MicrosoftTeams-image__2_.png"
+              }
+            ]
+          },
+          "htmlTitle": "<b>Self</b>-<b>driving</b> buses, shuttles and delivery vans could soon hit UK ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../<b>self-driving</b>-buses-shuttles-and-delivery-vans-could- soon-hit-uk-roads-thanks-to-40-million-government-funded-competition"
+        }
+      }
+    },
+    {
+      "id": "18",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/18",
+        "id": "18",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Nov 22, 2018 <b>...</b> For the first time, the public will experience <b>self</b>-<b>driving vehicle</b> services thanks to government backing for 3 world-leading public trials&nbsp;...",
+              "snippet": "Nov 22, 2018 ... For the first time, the public will experience self-driving vehicle services thanks to government backing for 3 world-leading public trials\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../from-science-fiction-to-reality-people-in-london-and- edinburgh-set-to-be-the-first-to-trial-self-driving-vehicle-services",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/from-science-fiction-to-reality-people-in-london-and-edinburgh-set-to-be-the-first-to-trial-self-driving-vehicle-services",
+          "title": "From science fiction to reality: People in London and Edinburgh set ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRTrhqVheKvp4PFTzNTXTnmWxI9pBm2cJE5EMLgPuwZY7clSomwVAWANWIY",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/199/s960_beis-sign-1vs.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "press_release",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "science-and-innovation",
+                "og:url": "https://www.gov.uk/government/news/from-science-fiction-to-reality-people-in-london-and-edinburgh-set-to-be-the-first-to-trial-self-driving-vehicle-services",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D1198>",
+                "govuk:taxon-slugs": "science-and-innovation,self-driving-vehicles",
+                "og:title": "From science fiction to reality: People in London and Edinburgh set to be the first to trial self-driving vehicle services",
+                "twitter:card": "summary_large_image",
+                "og:description": "Government support for the first UK trials of self-driving vehicle services.",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2018-11-22T12:21:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "ccb77bcc-56b4-419a-b5ce-f7c2234e0546,c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:themes": "business-and-industry, transport",
+                "govuk:rendering-app": "government-frontend",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/199/s960_beis-sign-1vs.jpg",
+                "govuk:content-id": "553f9e34-a8f7-40a3-b250-6e77c4f87995",
+                "theme-color": "#0b0c0c",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-06-20T10:44:13.291Z",
+                "govuk:taxon-id": "ccb77bcc-56b4-419a-b5ce-f7c2234e0546",
+                "govuk:public-updated-at": "2018-11-22T12:21:00.000Z",
+                "govuk:primary-publishing-organisation": "Department for Business, Energy & Industrial Strategy"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/default_news_organisation_image_data/file/199/s960_beis-sign-1vs.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "From science fiction to reality: People in London and Edinburgh set ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../from-science-fiction-to-reality-people-in-london-and- edinburgh-set-to-be-the-first-to-trial-<b>self-driving</b>-vehicle-services"
+        }
+      }
+    },
+    {
+      "id": "19",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/19",
+        "id": "19",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Sep 11, 2017 <b>...</b> <b>Self</b>-<b>driving cars</b>, perhaps more correctly referred to as connected and autonomous <b>vehicles</b>, are already here in various forms.",
+              "snippet": "Sep 11, 2017 ... Self-driving cars, perhaps more correctly referred to as connected and autonomous vehicles, are already here in various forms."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/government/publications/self-driving-cars",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/self-driving-cars",
+          "title": "Self-driving cars - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "140",
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBi_gTXOnwOfQwZsgqfPtWeLS3Pjzv5SYCTjcIZcUsTU3_0wBEOnxfd8",
+                "width": "105"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:content-has-history": "true",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2017-09-11T15:28:57.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "a1e4659c-dc15-48be-bc4f-6c609ae061dc",
+                "og:description": "This paper summarises some of the major issues and opportunities from the shift towards self-driving cars.",
+                "govuk:themes": "business-and-industry",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "research",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "f14f4868-5dbc-4e98-a2f1-a051471caa75",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:publishing-app": "whitehall",
+                "govuk:updated-at": "2023-06-20T11:16:50.602Z",
+                "og:url": "https://www.gov.uk/government/publications/self-driving-cars",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D103>",
+                "govuk:taxon-slugs": "uk-economy",
+                "govuk:primary-publishing-organisation": "Government Actuary's Department",
+                "govuk:public-updated-at": "2017-09-11T15:28:57.000Z",
+                "govuk:taxon-id": "a1e4659c-dc15-48be-bc4f-6c609ae061dc",
+                "og:title": "Self-driving cars",
+                "twitter:card": "summary",
+                "govuk:taxon-slug": "uk-economy"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/643799/thumbnail_self-driving_cars.pdf.png"
+              }
+            ]
+          },
+          "htmlTitle": "<b>Self</b>-<b>driving cars</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/government/publications/<b>self-driving</b>-cars"
+        }
+      }
+    },
+    {
+      "id": "20",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/20",
+        "id": "20",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 28, 2021 <b>...</b> Alongside this, the government published Automated <b>vehicles</b>: testing proposed wording used in The Highway Code and <b>Self</b>-<b>driving vehicles</b>&nbsp;...",
+              "snippet": "Apr 28, 2021 ... Alongside this, the government published Automated vehicles: testing proposed wording used in The Highway Code and Self-driving vehicles\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/government/.../safe-use-rules-for-automated-vehicles-av",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av",
+          "title": "Safe use rules for automated vehicles (AV) - GOV.UK",
+          "pagemap": {
+            "metatags": [
+              {
+                "og:description": "Proposes amending The Highway Code to create rules on the safe use of automated vehicles on Great Britain's motorways.",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:content-has-history": "true",
+                "govuk:first-published-at": "2021-04-27T23:00:08.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "3b1f1d58-dcd5-4d7e-adb6-fcc4c56324d0,c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:type": "article",
+                "govuk:themes": "transport",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "consultation_outcome",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "consultation",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "4a1e03ab-ae34-4ded-8ddd-622c65419ceb",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "theme-color": "#0b0c0c",
+                "govuk:taxon-slug": "road-safety-driving-rules-and-penalties",
+                "og:title": "Safe use rules for automated vehicles (AV)",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9>",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:taxon-slugs": "road-safety-driving-rules-and-penalties,self-driving-vehicles",
+                "govuk:public-updated-at": "2022-04-25T13:50:22.000Z",
+                "govuk:taxon-id": "3b1f1d58-dcd5-4d7e-adb6-fcc4c56324d0",
+                "og:url": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av",
+                "twitter:card": "summary",
+                "govuk:updated-at": "2023-07-17T15:04:46.363Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png"
+              }
+            ]
+          },
+          "htmlTitle": "Safe use rules for <b>automated vehicles</b> (AV) - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/government/.../safe-use-rules-for-automated-<b>vehicles</b>-av"
+        }
+      }
+    },
+    {
+      "id": "21",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/21",
+        "id": "21",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Oct 10, 2019 <b>...</b> what needs to be done to make <b>self</b>-<b>driving vehicles</b> more acceptable to the public. CAV Public Acceptability Dialogue. Published 10 October 2019",
+              "snippet": "Oct 10, 2019 ... what needs to be done to make self-driving vehicles more acceptable to the public. CAV Public Acceptability Dialogue. Published 10 October 2019"
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../public-attitudes-towards-self-driving-vehicles",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/publications/public-attitudes-towards-self-driving-vehicles",
+          "title": "Public attitudes towards self-driving vehicles - GOV.UK",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "140",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIQGO5TcLyo5T1NMkODcrsUyis3akNNa5s-7k18KsIiLAmv3M5K9gwzQ",
+                "width": "105"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.7.0",
+                "govuk:content-has-history": "true",
+                "govuk:first-published-at": "2019-10-10T08:00:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "og:description": "Research exploring people\u2019s attitudes towards self-driving vehicles.",
+                "govuk:themes": "transport",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:format": "research",
+                "og:site_name": "GOV.UK",
+                "govuk:schema-name": "publication",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:content-id": "9214eea6-4574-4bb9-84e5-010c707444bd",
+                "theme-color": "#0b0c0c",
+                "govuk:publishing-app": "whitehall",
+                "govuk:taxon-slug": "self-driving-vehicles",
+                "og:title": "Public attitudes towards self-driving vehicles",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:taxon-id": "c1306fc1-117b-477b-acd4-20f3dcf98534",
+                "govuk:taxon-slugs": "self-driving-vehicles",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:public-updated-at": "2020-03-25T17:16:08.000Z",
+                "govuk:analytics:organisations": "<D9><OT1223>",
+                "og:url": "https://www.gov.uk/government/publications/public-attitudes-towards-self-driving-vehicles",
+                "twitter:card": "summary",
+                "govuk:updated-at": "2023-05-30T06:12:21.119Z"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/951094/thumbnail_cav-public-acceptability-dialogue-engagement.pdf.png"
+              }
+            ]
+          },
+          "htmlTitle": "Public attitudes towards <b>self</b>-<b>driving vehicles</b> - GOV.UK",
+          "htmlFormattedUrl": "https://www.gov.uk/.../public-attitudes-towards-<b>self-driving</b>-<b>vehicles</b>"
+        }
+      }
+    },
+    {
+      "id": "22",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/22",
+        "id": "22",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Jan 15, 2018 <b>...</b> UK government has said that it expects <b>self</b>-<b>driving vehicles</b> to be on UK roads by 2021. Testing physical <b>vehicles</b> in all conceivable situations&nbsp;...",
+              "snippet": "Jan 15, 2018 ... UK government has said that it expects self-driving vehicles to be on UK roads by 2021. Testing physical vehicles in all conceivable situations\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../using-simulation-to-test-driverless-vehicles-apply-for- funding",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/using-simulation-to-test-driverless-vehicles-apply-for-funding",
+          "title": "Using simulation to test self-driving vehicles: apply for funding - GOV ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUgLrziTNVOxl0Z_ihE5WVK9t7Vthleoz-ocP3gitdZtkdaQ8HesPr9uo",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "RDM Group's autonomous vehicle at the London Eye",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/70947/s960_RDM_Groups_autonomous_vehicle_at_the_London_Eye_By_Adam_Gasson.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "science-and-innovation",
+                "og:title": "Using simulation to test self-driving vehicles: apply for funding",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<PB1078>",
+                "govuk:taxon-slugs": "science-and-innovation",
+                "og:url": "https://www.gov.uk/government/news/using-simulation-to-test-driverless-vehicles-apply-for-funding",
+                "og:image:alt": "RDM Group's autonomous vehicle at the London Eye",
+                "twitter:card": "summary_large_image",
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "og:description": "Businesses can apply for a share of up to \u00a315 million to develop simulation technologies that help to speed up adoption of self-driving and connected vehicles.",
+                "govuk:first-published-at": "2018-01-15T09:30:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "ccb77bcc-56b4-419a-b5ce-f7c2234e0546",
+                "govuk:themes": "business-and-industry",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:publishing-app": "whitehall",
+                "govuk:content-id": "d5e63728-b42b-4151-9015-6af6b8c8a55e",
+                "theme-color": "#0b0c0c",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/70947/s960_RDM_Groups_autonomous_vehicle_at_the_London_Eye_By_Adam_Gasson.jpg",
+                "govuk:updated-at": "2023-06-20T11:10:12.437Z",
+                "govuk:taxon-id": "ccb77bcc-56b4-419a-b5ce-f7c2234e0546",
+                "govuk:public-updated-at": "2018-01-15T09:30:00.000Z",
+                "govuk:primary-publishing-organisation": "Innovate UK"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/70947/s960_RDM_Groups_autonomous_vehicle_at_the_London_Eye_By_Adam_Gasson.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "Using simulation to test <b>self</b>-<b>driving vehicles</b>: apply for funding - GOV ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../using-simulation-to-test-driverless-<b>vehicles</b>-apply-for- funding"
+        }
+      }
+    },
+    {
+      "id": "23",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/23",
+        "id": "23",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Feb 22, 2017 <b>...</b> <b>Self</b>-<b>driving car</b> insurance and electric <b>vehicle</b> charge point measures introduced in <b>Vehicle</b> Technology and Aviation Bill.",
+              "snippet": "Feb 22, 2017 ... Self-driving car insurance and electric vehicle charge point measures introduced in Vehicle Technology and Aviation Bill."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/.../new-measures-set-out-autonomous-vehicle-insurance- and-electric-car-infrastructure",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/news/new-measures-set-out-autonomous-vehicle-insurance-and-electric-car-infrastructure",
+          "title": "New measures set out autonomous vehicle insurance and electric ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "183",
+                "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSx-GIf3pMlq08mRia629xvu4MALaNlnubNMt9mGMlosoo3GZD08vmOiD_I",
+                "width": "275"
+              }
+            ],
+            "metatags": [
+              {
+                "twitter:image:alt": "New measures set out autonomous vehicle insurance and electric car infrastructure.",
+                "govuk:content-has-history": "true",
+                "twitter:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/61238/s960_960-driverless-car.jpg",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "news_story",
+                "govuk:schema-name": "news_article",
+                "govuk:taxon-slug": "climate-change-energy",
+                "og:url": "https://www.gov.uk/government/news/new-measures-set-out-autonomous-vehicle-insurance-and-electric-car-infrastructure",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9>",
+                "govuk:taxon-slugs": "climate-change-energy,low-emission-and-electric-vehicles,self-driving-vehicles,uk-economy",
+                "og:title": "New measures set out autonomous vehicle insurance and electric vehicle infrastructure",
+                "og:image:alt": "New measures set out autonomous vehicle insurance and electric car infrastructure.",
+                "twitter:card": "summary_large_image",
+                "og:description": "Self-driving car insurance and electric vehicle charge point measures introduced in Vehicle Technology and Aviation Bill.",
+                "govuk:components_gem_version": "35.10.0",
+                "og:type": "article",
+                "govuk:first-published-at": "2017-02-22T13:05:00.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "govuk:taxon-ids": "62e08e6f-9161-42c6-b9dd-0cf8fcab2c69,906b4bbc-e7e4-416c-bd42-a50b7d5f9574,c1306fc1-117b-477b-acd4-20f3dcf98534,a1e4659c-dc15-48be-bc4f-6c609ae061dc",
+                "govuk:themes": "business-and-industry, environment, transport",
+                "govuk:rendering-app": "government-frontend",
+                "og:image": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/61238/s960_960-driverless-car.jpg",
+                "govuk:content-id": "b5441231-38cc-42c3-9e0c-9f1228bbdf76",
+                "govuk:publishing-app": "whitehall",
+                "theme-color": "#0b0c0c",
+                "govuk:updated-at": "2023-06-20T10:35:51.197Z",
+                "govuk:taxon-id": "62e08e6f-9161-42c6-b9dd-0cf8fcab2c69",
+                "govuk:public-updated-at": "2017-02-22T13:05:00.000Z",
+                "govuk:primary-publishing-organisation": "Department for Transport"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/61238/s960_960-driverless-car.jpg"
+              }
+            ]
+          },
+          "htmlTitle": "New measures set out <b>autonomous vehicle</b> insurance and electric ...",
+          "htmlFormattedUrl": "https://www.gov.uk/.../new-measures-set-out-autonomous-vehicle-insurance- and-electric-car-infrastructure"
+        }
+      }
+    },
+    {
+      "id": "24",
+      "document": {
+        "name": "projects/230294883006/locations/global/collections/default_collection/dataStores/dft-open-data-test_1685004630707/branches/0/documents/24",
+        "id": "24",
+        "derivedStructData": {
+          "snippets": [
+            {
+              "htmlSnippet": "Apr 25, 2022 <b>...</b> The new section uses the term &#39;<b>self</b>-<b>driving vehicle</b>&#39; for any <b>vehicle</b> listed as an &#39;automated <b>vehicle</b>&#39; by the Secretary of State for Transport&nbsp;...",
+              "snippet": "Apr 25, 2022 ... The new section uses the term 'self-driving vehicle' for any vehicle listed as an 'automated vehicle' by the Secretary of State for Transport\u00a0..."
+            }
+          ],
+          "formattedUrl": "https://www.gov.uk/...vehicles.../explanatory-memorandum-to-the-highway- code-amendment-self-driving-vehicles-2022-2022-no-xxxx",
+          "displayLink": "www.gov.uk",
+          "link": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av/outcome/explanatory-memorandum-to-the-highway-code-amendment-self-driving-vehicles-2022-2022-no-xxxx",
+          "title": "Explanatory memorandum to The Highway Code amendment [self ...",
+          "pagemap": {
+            "cse_thumbnail": [
+              {
+                "height": "143",
+                "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPh8aF07-1hXsQ2ov3yfO1796nosyHEEAodjsBYLl1DIQeUyz2FR6C7rE",
+                "width": "353"
+              }
+            ],
+            "metatags": [
+              {
+                "og:type": "article",
+                "govuk:components_gem_version": "35.10.0",
+                "govuk:first-published-at": "2022-04-25T13:50:24.000Z",
+                "viewport": "width=device-width, initial-scale=1",
+                "og:site_name": "GOV.UK",
+                "govuk:format": "html_publication",
+                "govuk:rendering-app": "government-frontend",
+                "govuk:schema-name": "html_publication",
+                "theme-color": "#0b0c0c",
+                "govuk:content-id": "09870f54-e0dc-4f1b-ae8d-d213ed6cd625",
+                "govuk:publishing-app": "whitehall",
+                "og:image": "/assets/static/govuk-opengraph-image-dade2dad5775023b0568381c4c074b86318194edb36d3d68df721eea7deeac4b.png",
+                "govuk:updated-at": "2023-07-17T15:04:51.117Z",
+                "og:title": "Explanatory memorandum to The Highway Code amendment [self-driving vehicles] 2022 [2022] No. [XXXX]",
+                "govuk:rendering-application": "government-frontend",
+                "govuk:analytics:organisations": "<D9>",
+                "govuk:primary-publishing-organisation": "Department for Transport",
+                "govuk:public-updated-at": "2022-11-10T14:52:58.000Z",
+                "og:url": "https://www.gov.uk/government/consultations/safe-use-rules-for-automated-vehicles-av/outcome/explanatory-memorandum-to-the-highway-code-amendment-self-driving-vehicles-2022-2022-no-xxxx",
+                "twitter:card": "summary"
+              }
+            ],
+            "cse_image": [
+              {
+                "src": "https://www.gov.uk/assets/government-frontend/open-government-licence-min-93b6a51b518ff99714a1aa2a7d2162735c155ec3cb073c75fb88b2a332fa83d3.png"
+              }
+            ]
+          },
+          "htmlTitle": "Explanatory memorandum to The Highway Code amendment [<b>self</b> ...",
+          "htmlFormattedUrl": "https://www.gov.uk/...<b>vehicles</b>.../explanatory-memorandum-to-the-highway- code-amendment-<b>self-driving</b>-<b>vehicles</b>-2022-2022-no-xxxx"
+        }
+      }
+    }
+  ],
+  "totalSize": 35700,
+  "attributionToken": "U_BSCgwIjt7ppQYQz7zrjQISJDY0YjliOWMwLTAwMDAtMjkwOS05ODBhLTE0MjIzYmJhNzY2ZSIHR0VORVJJQyoU1LKdFcLwnhWOvp0VpovvF8XL8xc",
+  "nextPageToken": "QZ2YzNhJmYzIjM0ETLhBDO50SOwkjMtADMwATLmJWOiljY0YDJaUBuFTLEGUa-H_ICLIRNyIgC",
+  "guidedSearchResult": {},
+  "summary": {}
+}
