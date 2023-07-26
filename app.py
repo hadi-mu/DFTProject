@@ -4,7 +4,9 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import numpy
+import js2py
 
+redirectFunc=""
 SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
 
 #Constants containing possible choices for filters
@@ -34,33 +36,42 @@ webSumTex=''
 
 app=Flask(__name__)
 app.static_folder='./static'
+app.template_folder='./templates'
 
 
-
-@app.route('/',methods=['POST','GET'])
+@app.route('/')
 def index():
-          
-          if request.method == 'POST': #query posted to this method
-                  
-                  query=request.form['query']#extracts search query from form
-                                    
-                  #update global variables that contain content to be displayed on frontend - performing search and getting results
-                  
-                  global sumText,prevHeadings,prevText,links,webs,webLinks,webContents,webSumTex
-                  sumText, jsonResults, prevHeadings, prevText,links,webs,webLinks,webContents,webSumTex= SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)          
-                  return redirect(url_for('index'))
-                  refresh()
-                  
-          return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents,webSum=webSumTex
-          )
+    print("RENDERING INDEX")
+    return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents,webSum=webSumTex
+                        )
 
+@app.route('/search',methods=['GET','POST'])
+def search():
+    if request.method=='POST':
+         print("SEARCH SUBMITTED FROM FRONTEND")
+         print(request.form)
+         query=request.form['searchQueryInput']#extracts search query from form
+         #update global variables that contain content to be displayed on frontend - performing search and getting results
+         global sumText,prevHeadings,prevText,links,webs,webLinks,webContents,webSumTex
+         sumText, jsonResults, prevHeadings, prevText,links,webs,webLinks,webContents,webSumTex= SearchBackend.startSearch(query, SEARCHLOCATIONS[1],startDate,endDate,sourcesToUse,authorsToUse,typesToUse)     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)   
+         print("RESULTS RECEIVED AT FRONT END")
+         return redirect(url_for("index"))
+    return render_template('loading.html')
+
+
+
+@app.route('/loading')
+def loading():
+       print("LOADING.")
+       return render_template('loading.html')
 
 
 #Method to change date range
-@app.route('/date',methods=['POST','GET'])
+@app.route('/date',methods=['POST'])
 def changeDate():
-         
          if request.method == 'POST': 
+                  print(request.form)
+                  print("DATE HAS BEEN CHANGED AT FRONT END.")
                   global startDate,endDate
                   #update dateRange with dates specified in form
                   startDate=request.form['start']
@@ -68,95 +79,38 @@ def changeDate():
                   dateRange=request.form['start']+':'+request.form['end']
                   #print("Dates selected are " + dateRange)
 
-         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents, webSum=webSumTex
-          )
+         return render_template('loading.html')
 
 
 
 
 #Updates all filters with selections
-@app.route('/filter',methods=['POST','GET'])
+@app.route('/filter',methods=['POST'])
 def changeFilters():
-        
         if request.method == 'POST':
-
+                print("FILTERS UPDATED AT FRONT END.")
                 req=request.form
                 global typesToUse,sourcesToUse,authorsToUse
-                typesToUse=req.getlist('types[]')
-                authorsToUse=req.getlist('authors[]')
-                sourcesToUse=req.getlist('sources[]')
+                try:
+                        typesToUse=req.getlist('types[]')
+                except:
+                       pass
+                try:
+                        authorsToUse=req.getlist('authors[]')
+
+                except:
+                       pass
+                try:
+                        sourcesToUse=req.getlist('sources[]')
+                except:
+                       pass
+                
 
                 #print("Types" + str(typesToUse))
 
-        return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents, webSum=webSumTex
-          )
-        
+        return render_template('loading.html')
 
-
-def refresh():
-         print("REFRESHING...")
-         return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents, webSum=webSumTex
-          )   
-
-
-def searchQuery(query, searchType,startDate=None,endDate=None,sources=None,authors=None,types=None):
-        
-        #TO IMPLEMENT
-        #PASS IN QUERY STRING, FILTER INFORMATION, AND WHETHER TO SEARCH WEB OR UNSTRUCTURED DATA (eg UPLOADED DOCS)
-        #searchType takes in a string of value given by SEARCHLOCATIONS. We need to connect to a different search engine
-        #for a search of webpages, or of unstructured/ uploaded docs (eg pdfs). 
-        # If both is selected then both locations will be searched seperately - NOT YET IMPLEMENTED
-
-        #Method creates searchQuery, performs relevant searches, applies filters, and returns results as required, including extractive answer.
-        
-
-        ###---HOW TO CALL BACKEND---###
-        #summary, jsonResults = SearchBackend.startSearch(query, searchType, startDate, endDate, sources, authors, types)
-        #return summary, jsonResults
-
-        #return summary, articleHeadings, articleSummaries, articleLinks
-
- '''''''''
-@app.route("/search_genappbuilder", methods=["POST"])
-def search_genappbuilder(search_query) -> str:
-    """
-    Handle Search Gen App Builder Request
-    """fal
-
-    # Check if POST Request includes search query
-    if not search_query:
-        return render_template('main.html', sources=SOURCES, authors=AUTHORS,types=TYPES
-          )
-
-    results, request_url, raw_request, raw_response = search_enterprise_search(
-        project_id=PROJECT_ID,
-        location=LOCATION,
-        search_engine_id=CUSTOM_UI_DATASTORE_IDS[0]["datastore_id"],
-        search_query=search_query,
-    )
-
-    return render_template(
-        "search.html",
-        nav_links=NAV_LINKS,
-        message_success=search_query,
-        results=results,
-        request_url=request_url,
-        raw_request=raw_request,
-        raw_response=raw_response,
-    )
-'''''''''
-
-
-
-
-
-#Test path for backend
-@app.route('/test_search')
-def testSearch():
-        query = "How many accidents were there in 2021?"
-        summary, jsonResults, titleArr, previewArr, linkArr = SearchBackend.startSearch(query, SEARCHLOCATIONS[1])     #SEARCHLOCATIONS: 0 FOR WEB, 1 FOR UNSTRUC, 2 FOR BOTH(TODO)
-        print(summary)
-        return(jsonResults)
+    
 
 if __name__=="__main__":
         app.run(debug=True)
