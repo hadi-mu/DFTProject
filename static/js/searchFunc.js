@@ -1,6 +1,10 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('form').onsubmit = function() {
+    document.querySelector('form').onsubmit = function(e) {
+
+
+
+                
         var types=[];
         for(var option of document.getElementById('typeSelection').options){
             if(option.selected){
@@ -43,17 +47,20 @@ document.addEventListener('DOMContentLoaded', function() {
         const query = document.querySelector('#searchIn').value;
         
         $.ajax({
-            url:'/',
+            url:'/search',
             type:'POST',
             data:{'query':query}
         })
 
+        console.log('Loading...')
+
         $.ajax({
-            url:'/',
-            type:'GET'
+            url:'/loading',
+            type:'GET',
                 })
 
-    };
+    e.preventDefault();
+            };
 });
 
 

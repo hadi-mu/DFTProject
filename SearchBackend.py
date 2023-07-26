@@ -103,14 +103,18 @@ def performSingleSearch(searchServiceClient, searchEngineID, searchQuery, filter
         serving_config="default_config",
     )
 
+
     # Create search request using config and query
     request = discoveryengine.SearchRequest(
-        serving_config=serving_config, query=searchQuery, filter=filter, page_size=pageSize
-    )
+        serving_config=serving_config, query=searchQuery, filter=filter, page_size=pageSize,content_search_spec=discoveryengine.SearchRequest.ContentSearchSpec(summary_spec=discoveryengine.SearchRequest.ContentSearchSpec.SummarySpec(
+        summary_result_count=3,
+        #include_citations=True
+        )
+        
+    ))
 
     #Setting summary to be generated from all documents
     request.content_search_spec.extractive_content_spec.max_extractive_answer_count = 1 #number of single document summaries (extractive content) per document
-    request.content_search_spec.summary_spec.summary_result_count = 1 #number of total query summaries to generate.
 
     # Search performed and raw search results returned
     response_pager = searchServiceClient.search(request)
@@ -146,10 +150,11 @@ def parseWebResults(searchResponse):
     # request_json = discoveryengine.SearchRequest.to_json(
     #    searchRequest, including_default_value_fields=True, indent=2
     # )
-
+    print("PARSING WEB RESULTS...")
     response_json = discoveryengine.SearchResponse.to_json(
         searchResponse, including_default_value_fields=False, indent=2
     )
+    print("DONE PARSING WEB RESULTS...")
 
     return response_json
 
@@ -363,11 +368,11 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     -webLinkArr -> arr containing web links 
 
 
-
     """
 
     # create search client
     print("SEARCH SUBMITTED")
+
     client = discoveryengine.SearchServiceClient()
 
     # authorFilter
@@ -390,18 +395,7 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     
     webSum=webSummary(webTitleArr,webLinkArr)
 
-
-
-        
-
-
-
-
-
-
     # return all parsed and filtered results in desired format
-    #print("DONE PROCESSING")
-
     return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr,webConts, webSum
 
 

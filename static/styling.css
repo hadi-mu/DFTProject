@@ -91,3 +91,50 @@ h6 {
   padding: 0px!important;
 
 }
+
+
+.wrapper {
+  width: 100%;
+  max-width: 31.25rem;
+  margin: 6rem auto;
+}
+
+.label {
+  font-size: .625rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: +1.3px;
+  margin-bottom: 1rem;
+}
+
+.searchBar {
+  width: 100%;
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#searchIn {
+  width: 1050px;
+  height: 4rem;
+  background: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 2.5rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
