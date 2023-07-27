@@ -10,9 +10,9 @@ redirectFunc=""
 SEARCHLOCATIONS=['Web', 'Unstructured', 'Dual']
 
 #Constants containing possible choices for filters
-SOURCES=['gov.uk','BBC','SkyNews','DFT'] 
-AUTHORS=['Reporters','Government','DFT']
-TYPES=['Reports','Article','Audits','Statistics']
+SOURCES=['DFT'] 
+AUTHORS=['DFT']
+TYPES=['Reports','Article','Statistics']
 
 
 #filters selected by user
