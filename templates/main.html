@@ -44,8 +44,44 @@
         <form action="/search" method="POST" onsubmit="loading()">
             <script>
                 function loading(){
-                    window.location.href = "./templates/loading.html";
                     console.log('Running');
+
+                    var types=[];
+    for(var option of document.getElementById('typeSelection').options){
+        if(option.selected){
+            types.push(option.value)
+        }
+    }
+    console.log(types)
+
+    var authors=[];
+    for(var option of document.getElementById('authorSelection').options){
+        if(option.selected){
+            authors.push(option.value)
+        }
+    }
+    console.log(authors)
+
+
+    var sources=[];
+    for(var option of document.getElementById('sourceSelection').options){
+        if(option.selected){
+            sources.push(option.value)
+        }
+    }
+    console.log(sources)
+
+
+
+    $.ajax({
+        url:'/filter',
+        type:'POST',
+        data:{
+        'types':types,
+        'authors':authors,
+        'sources':sources
+    }
+    })
                 }                
             </script>
             <div class="searchBar">
@@ -62,7 +98,7 @@
 
     <div class="row buttonLabels"> 
         <div class="col-2"> </div>
-        <div class="col-2">    <h6 class="display-6" >Test:</h6>
+        <div class="col-2">    <h6 class="display-6" > Date:</h6>
         </div>
         <div class="col-2">    <h6 class="display-6" >Types:</h6>
         </div>
