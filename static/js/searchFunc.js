@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('form').onsubmit = function(e) {
+    document.getElementsById('searchIn').onsubmit = function() {
 
 
 
@@ -44,22 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
         console.log('Submitted.')
-        const query = document.querySelector('#searchIn').value;
         
-        $.ajax({
-            url:'/search',
-            type:'POST',
-            data:{'query':query}
-        })
 
-        console.log('Loading...')
 
-        $.ajax({
-            url:'/loading',
-            type:'GET',
-                })
-
-    e.preventDefault();
+        
             };
 });
 
