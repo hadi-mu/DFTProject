@@ -40,55 +40,9 @@
         <img src="{{url_for('static',filename='images/banner.png')}}" alt="DFT Logo" class="img-fluid">
     </div>
 
+<div class="container">
 
-
-    <div class="container">
-        <form action="/search" method="POST" onsubmit="loading()">
-            <script>
-                function loading(){
-                    window.location.href="http://127.0.0.1:5000/loading";
-                    console.log('Running');
-
-                    var types=[];
-    for(var option of document.getElementById('typeSelection').options){
-        if(option.selected){
-            types.push(option.value)
-        }
-    }
-    console.log(types)
-
-    var authors=[];
-    for(var option of document.getElementById('authorSelection').options){
-        if(option.selected){
-            authors.push(option.value)
-        }
-    }
-    console.log(authors)
-
-
-    var sources=[];
-    for(var option of document.getElementById('sourceSelection').options){
-        if(option.selected){
-            sources.push(option.value)
-        }
-    }
-    console.log(sources)
-
-
-
-    $.ajax({
-        url:'/filter',
-        type:'POST',
-        data:{
-        'types':types,
-        'authors':authors,
-        'sources':sources
-    }
-    })
-
-                }                
-            </script>
-            <div class="searchBar">
+    <div class="searchBar">
 
                 <input id="searchIn" type="text" name="searchQueryInput" placeholder="Search" value="" />
                 <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
@@ -99,7 +53,6 @@
         </form>
     </div>
 
-    
     <div class="row buttonLabels"> 
         <div class="col-2"> </div>
         <div class="col-2">    <h6 class="display-6" >Test:</h6>
@@ -190,8 +143,8 @@
 
     </div>
 
-    <br>
-    <div class="row summary">
+
+    <div class="row">
 
             <h2 class="display-2 subHeading">Overall Findings</h2>
 
