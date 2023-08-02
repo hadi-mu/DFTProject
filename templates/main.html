@@ -46,6 +46,12 @@
         <form action="/search" method="POST" onsubmit="loading()">
             <script>
                 function loading(){
+
+                    document.getElementById('results').style.display = "none";
+
+                    document.getElementById('loadingDiv').style.display = "block";
+                    
+                     
                     console.log('Running');
 
                     var types=[];
@@ -187,10 +193,11 @@
 
     </div>
 
+    <div id="results">
 
-    <div class="row">
+    <div class="row summary">
 
-            <h2 class="display-2 subHeading">Overall Findings</h2>
+            <h2 class="display-2 subHeading">Document Findings</h2>
 
 
             <p class="lead">
@@ -260,6 +267,13 @@
         </div>
         {%endfor%}
        
+    </div>
+    </div>
+
+
+    <div id="loadingDiv"  style="display:none;"> 
+        <img src="{{url_for('static',filename='images/loading.gif')}}" style="
+        width: 100%;">
     </div>
 
 
