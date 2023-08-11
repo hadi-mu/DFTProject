@@ -20,6 +20,8 @@ import vertexai
 from vertexai.language_models import TextGenerationModel
 import requests
 from bs4 import BeautifulSoup
+import os
+os.environ["GCLOUD_PROJECT"] = "gen-ai-sandbox"
 
 STORAGE_CLIENT = storage.Client()
 BUCKET = STORAGE_CLIENT.bucket(consts.BUCKET_NAME)
@@ -180,19 +182,7 @@ def parseUnstructuredResults(searchResponse):
 
     summary = searchResponse.summary.summary_text
     return summary, response_json
-    """
-    TODO:
-    results = []
-    for result in searchResponse.results:
-            data = result.document.derived_struct_data
-            results.append(
-                {
-                    "resultJson": discoveryengine.SearchResponse.SearchResult.to_json(
-                        result, including_default_value_fields=True, indent=2
-                    ),
-                }
-            )
-    """
+   
 
 def parseLink(link):
     """
@@ -365,7 +355,7 @@ def startSearch(query, searchType, startDate="", endDate="", sources="", authors
     unstTitleArr,unstLinkArr,unstPreviewArr=extractFromJSON(unstParsedResults,True,startDate,endDate,sources,authors,types)            
     webTitleArr,webLinkArr,webConts=extractFromJSON(webParsedResults,False,startDate,endDate,sources,authors,types)            
     
-    webSum=webSummary(webTitleArr,webLinkArr)
+    webSum=webSummary(webLinkArr)
 
     # return all parsed and filtered results in desired format
     return unstSummary, unstParsedResults, unstTitleArr, unstPreviewArr, unstLinkArr, webTitleArr,webLinkArr,webConts, webSum
