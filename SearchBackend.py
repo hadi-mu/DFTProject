@@ -158,34 +158,6 @@ def parseWebResults(searchResponse):
 
     return response_json
 
-    """
-    TODO:
-    results = []
-    for result in searchResponse.results:
-            data = result.document.derived_struct_data
-
-            # Grabbing source image if available
-            cse_thumbnail = data["pagemap"].get("cse_thumbnail")
-            if cse_thumbnail:
-                image = cse_thumbnail[0]["src"]
-            else:
-                image = "https://www.google.com/images/errors/robot.png"
-            results.append(
-                {
-                    "title": data["title"],
-                    "htmlTitle": data["htmlTitle"],
-                    "link": data["link"],
-                    "htmlFormattedUrl": data["htmlFormattedUrl"],
-                    "displayLink": data["displayLink"],
-                    "snippets": [s["htmlSnippet"] for s in data["snippets"]],
-                    "thumbnailImage": image,
-                    "resultJson": discoveryengine.SearchResponse.SearchResult.to_json(
-                        result, including_default_value_fields=True, indent=2
-                    ),
-                }
-            )
-    """
-
 
 def parseUnstructuredResults(searchResponse):
     """
@@ -421,6 +393,7 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
     links=[]
     contents=[] 
     parsedDict=json.loads(jsonFile)
+    print(parsedDict)
     resultsArr=parsedDict["results"]
     passCount=0
     for result in resultsArr:
@@ -429,14 +402,14 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
             documentDict=result["document"]
             docDataDict=documentDict["derivedStructData"]
             if unstructured:
-                 success,title,link,content=processUnstructuredDocDict(docDataDict,start,end,sources,authors,types)
-                 if success:
-                     passCount+=1
-                     titles.append(title)
-                     links.append(link)
-                     contents.append(content)
-                 else:
-                     print("DOC REJECTED")
+                success,title,link,content=processUnstructuredDocDict(docDataDict,start,end,sources,authors,types)
+                if success:
+                    passCount+=1
+                    titles.append(title)
+                    links.append(link)
+                    contents.append(content)
+                else:
+                    print("DOC REJECTED")
             else:
                 if webFilters(docDataDict,start,end,types):
                         passCount+=1
@@ -452,7 +425,20 @@ def extractFromJSON(jsonFile,unstructured,start,end,sources,authors,types):
 
 
 def processUnstructuredDocDict(dataDict,startDate="", endDate="", sources="", authors="", types=""):
+    """
+        Summary: Unpacks the unstructured dictionary to extract document information. Also filters the results
 
+        Arguments:
+        -dataDict -> dictionary containing results
+        -startDate,endDate -> specified date range
+        -sources,authors,types -> arrays with filters
+
+        Returns:
+        -True/False -> if the result is valid or not
+        -title -> doc name
+        -docLink -> link to document in bucket
+        -preview of document
+    """
     print("PROCESSING UNSTRUCTURED...")
     append=True
     docDataArr=dataDict["extractive_answers"]
@@ -467,7 +453,6 @@ def processUnstructuredDocDict(dataDict,startDate="", endDate="", sources="", au
     if types!=[]:
                 if not(docTypes in types):
                     append=False
-
 
     if sources!=[]:
         if not(source in sources):
@@ -487,14 +472,41 @@ def processUnstructuredDocDict(dataDict,startDate="", endDate="", sources="", au
         return True,title,docLink,model.predict('Provide a brief summary for the following text:' + docContent ).text
     else:
         return False,[],[],[]
-    
+
+
+
+
+
+
+
 def processWebDataDict(dataDict):
+    """
+    Summary: Processes web result dictionary.
+
+    Arguments:
+    -dataDict -> web result dictionary
+
+    Returns:
+    -title
+    -links
+    -snips -> previews of websites
+    """
     title=dataDict["title"]
     link=dataDict["link"]
     snip=dataDict["snippets"][0]["snippet"]
     return title,link,snip
 
 def webFilters(dataDict,startDate,endDate,type):
+    """
+    Summary: Filters web results.
+
+    Arguments:
+    -dataDict -> web result dictionary
+    -startDate,endDate,type -> filters
+
+    Returns:
+    -True/False depending on if results passes filters
+    """
     try:
         passed=True
         map=dataDict["pagemap"]
@@ -513,7 +525,19 @@ def webFilters(dataDict,startDate,endDate,type):
         print("ERROR FILTERING WEBPAGE")
         return True
     
-def webSummary(titles,links):
+def webSummary(links):
+
+    """
+    Summary: Summarises a list of urls.
+
+    Arguments:
+    -links -> list of urls
+
+    Returns:
+    -final -> summary
+    """
+
+
     joined=''
     for i in range(len(links)):
         content=getPageContent(links[i])
@@ -526,6 +550,16 @@ def webSummary(titles,links):
 
 
 def getPageContent(url):
+
+    """
+    Summary: Scrapes website.
+
+    Arguments:
+    -url -> Website to scrape.
+
+    Returns:
+    -article -> Website content.
+    """
 
     page=requests.get(url).text
 
