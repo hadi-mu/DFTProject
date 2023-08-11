@@ -45,6 +45,8 @@ def index():
     return render_template('main.html', length=len(prevHeadings),sources=SOURCES, authors=AUTHORS,types=TYPES,summary=sumText,headings=prevHeadings,previewText=prevText,hyperlinks=links,webFindings=webs,webLinks=webLinks,webConts=webContents,webSum=webSumTex
                         )
 
+
+#Performs a search query
 @app.route('/search',methods=['GET','POST'])
 def search():
     if request.method=='POST':
@@ -59,11 +61,13 @@ def search():
     return render_template('loading.html')
 
 
-
+#Displays a loading screen
 @app.route('/loading')
 def loading():
        print("LOADING.")
        return render_template('loading.html')
+
+
 
 
 #Method to change date range
@@ -73,12 +77,8 @@ def changeDate():
                   print(request.form)
                   print("DATE HAS BEEN CHANGED AT FRONT END.")
                   global startDate,endDate
-                  #update dateRange with dates specified in form
                   startDate=request.form['start']
                   endDate=request.form['end']
-                  dateRange=request.form['start']+':'+request.form['end']
-                  #print("Dates selected are " + dateRange)
-
          return render_template('loading.html')
 
 
@@ -105,9 +105,6 @@ def changeFilters():
                 except:
                        pass
                 
-
-                #print("Types" + str(typesToUse))
-
         return render_template('loading.html')
 
     
